@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2024 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   --><!-- smartling.instruction_comments_enabled = on --><resources>
@@ -777,8 +777,8 @@
     <string name="AddToFolderBottomSheet_added_to_s">به «%1$s» افزوده شد</string>
     <!-- Toast shown when a user tries to add chats to a folder, but the folder already has those chats. %s is the name of the folder -->
     <plurals name="AddToFolderBottomSheet_these_chat_are_already_in_s">
-        <item quantity="one">این گفتگو از قبل در \"%1$s\" موجود است</item>
-        <item quantity="other">این گفتگوها از قبل در \"%1$s\" موجود هستند</item>
+        <item quantity="one">این گفتگو از قبل در \&quot;%1$s\&quot; موجود است</item>
+        <item quantity="other">این گفتگوها از قبل در \&quot;%1$s\&quot; موجود هستند</item>
     </plurals>
 
     <!-- Show in conversation list overflow menu to open selection bottom sheet -->
@@ -914,7 +914,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">گذرواژهٔ پشتیبان خود را امتحان کرده و همخوانی داشتن آن را وارسی کنید.</string>
     <string name="BackupsPreferenceFragment__turn_on">روشن</string>
     <string name="BackupsPreferenceFragment__turn_off">خاموش</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"برای بازیابی یک پشتیبان، یک نسخهٔ جدید سیگنال را نصب کنید. برنامه را باز کرده و روی «بازیابی پشتیبان» ضربه بزنید، سپس فایل پشتیبان را مشخص کنید. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">&quot;برای بازیابی یک پشتیبان، یک نسخهٔ جدید سیگنال را نصب کنید. برنامه را باز کرده و روی «بازیابی پشتیبان» ضربه بزنید، سپس فایل پشتیبان را مشخص کنید. %1$s&quot;</string>
     <string name="BackupsPreferenceFragment__learn_more">بیشتر یاد بگیرید</string>
     <string name="BackupsPreferenceFragment__in_progress">در حال پیشرفت…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -1023,9 +1023,9 @@
     <!-- Dialog confirmation to unlink a device -->
     <string name="LinkDeviceFragment__unlink">قطع ارتباط</string>
     <!-- Toast message indicating a device has been unlinked, where %s is the name of the device -->
-    <string name="LinkDeviceFragment__s_unlinked">\"%1$s\" قطع اتصال شد</string>
+    <string name="LinkDeviceFragment__s_unlinked">\&quot;%1$s\&quot; قطع اتصال شد</string>
     <!-- Toast message indicating a device has been successfully linked, where %s is the name of the device -->
-    <string name="LinkDeviceFragment__s_linked">\"%1$s\" متصل شد</string>
+    <string name="LinkDeviceFragment__s_linked">\&quot;%1$s\&quot; متصل شد</string>
     <!-- Progress dialog message indicating that a device is currently being linked with an account -->
     <string name="LinkDeviceFragment__linking_device">در حال اتصال دستگاه…</string>
     <!-- Toast message shown after a device has been linked -->
@@ -1367,8 +1367,8 @@
     <string name="RequestingMembersFragment_pending_member_requests">درخواست‌‌های عضویت در حال انتظار</string>
     <string name="RequestingMembersFragment_no_member_requests_to_show">هیچ درخواست عضویتی برای نمایش وجود ندارد</string>
     <string name="RequestingMembersFragment_explanation">افراد در این فهرست در حال تلاش برای پیوستن به این گروه از طریق پیوند گروه هستند.</string>
-    <string name="RequestingMembersFragment_added_s">"«%1$s» اضافه شد"</string>
-    <string name="RequestingMembersFragment_denied_s">"«%1$s» رد شد"</string>
+    <string name="RequestingMembersFragment_added_s">&quot;«%1$s» اضافه شد&quot;</string>
+    <string name="RequestingMembersFragment_denied_s">&quot;«%1$s» رد شد&quot;</string>
 
     <!-- AddMembersActivity -->
     <string name="AddMembersActivity__done">انجام شد</string>
@@ -1506,7 +1506,7 @@
     <!-- The title of a pop-up dialog asking the user to confirm deleting their username -->
     <string name="ManageProfileFragment__delete_username_dialog_title">نام کاربری پاک شود؟</string>
     <!-- The body of a pop-up dialog asking the user to confirm deleting their username -->
-    <string name="ManageProfileFragment__delete_username_dialog_body">"این کار موجب پاک شدن نام کاربری و غیرفعال شدن کد و پیوند QR شما می‌شود. ‏«%1$s» در دسترس دیگران قرار خواهد گرفت و می‌توانند آن را تصاحب کنند. مطمئن هستید؟"</string>
+    <string name="ManageProfileFragment__delete_username_dialog_body">&quot;این کار موجب پاک شدن نام کاربری و غیرفعال شدن کد و پیوند QR شما می‌شود. ‏«%1$s» در دسترس دیگران قرار خواهد گرفت و می‌توانند آن را تصاحب کنند. مطمئن هستید؟&quot;</string>
 
     <!-- UsernameOutOfSyncReminder -->
     <!-- Displayed above the conversation list when a user needs to address an issue with their username -->
@@ -1612,7 +1612,7 @@
     <string name="RequestConfirmationDialog_add_s_to_the_group">«%1$s» به گروه اضافه شود؟</string>
     <string name="RequestConfirmationDialog_deny_request_from_s">رد درخواست «%1$s»؟</string>
     <!-- Confirm dialog message shown when deny a group link join request and group link is enabled. -->
-    <string name="RequestConfirmationDialog_deny_request_from_s_they_will_not_be_able_to_request">درخواست \"%1$s\" رد شود؟ او دوباره نمی‌تواند از طریق پیوند گروه درخواست عضویت کند.</string>
+    <string name="RequestConfirmationDialog_deny_request_from_s_they_will_not_be_able_to_request">درخواست \&quot;%1$s\&quot; رد شود؟ او دوباره نمی‌تواند از طریق پیوند گروه درخواست عضویت کند.</string>
     <string name="RequestConfirmationDialog_add">افزودن</string>
     <string name="RequestConfirmationDialog_deny">رد کردن</string>
 
@@ -2327,7 +2327,7 @@
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">مجوز بلوتوث لغو شد</string>
     <!-- Message for dialog warning about lacking bluetooth permissions during a call and references the permission needed by name -->
-    <string name="WebRtcCallActivity__please_enable_the_nearby_devices_permission_to_use_bluetooth_during_a_call">برای استفاده از بلوتوث در حین تماس، لطفاً مجوز \"دستگاه‌های نزدیک\" را فعال کنید.</string>
+    <string name="WebRtcCallActivity__please_enable_the_nearby_devices_permission_to_use_bluetooth_during_a_call">برای استفاده از بلوتوث در حین تماس، لطفاً مجوز \&quot;دستگاه‌های نزدیک\&quot; را فعال کنید.</string>
     <!-- Positive action for bluetooth warning dialog to open settings -->
     <string name="WebRtcCallActivity__open_settings">بازکردن تنظیمات</string>
     <!-- Negative action for bluetooth warning dialog to dismiss dialog -->
@@ -2636,7 +2636,7 @@
     <string name="RegistrationActivity_you_will_receive_a_call_to_verify_this_number">شما تماسی برای وارسی این شماره دریافت خواهید کرد.</string>
     <string name="RegistrationActivity_edit_number">ویرایش شماره</string>
     <string name="RegistrationActivity_missing_google_play_services">فاقد خدمات Google Play</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">این دستگاه فاقد خدمات Google Play است. شما می‌توانید به استفاده از سیگنال ادامه دهید، اما این پیکربندی می‌تواند باعث کاهش اطمینان‌پذیری یا عملکرد شود.\n\n اگر یک کاربر حرفه‌ای یا در حال اجرای یک ROM سفارشی اندروید نیستید یا فکر می‌کنید که این پیام به اشتباه به شما نشان داده شده است، برای دریافت کمک در فرآیند عیب‌یابی با support@molly.im تماس بگیرید.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">این دستگاه فاقد خدمات Google Play است. شما می‌توانید به استفاده از سیگنال ادامه دهید، اما این پیکربندی می‌تواند باعث کاهش اطمینان‌پذیری یا عملکرد شود.\n\n اگر یک کاربر حرفه‌ای یا در حال اجرای یک ROM سفارشی اندروید نیستید یا فکر می‌کنید که این پیام به اشتباه به شما نشان داده شده است، برای دریافت کمک در فرآیند عیب‌یابی با support@Encrypt.im تماس بگیرید.</string>
     <string name="RegistrationActivity_i_understand">متوجهم</string>
     <string name="RegistrationActivity_play_services_error">خطای خدمات Play</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">خدمات Google Play در حال به‌روزرسانی است یا موقتاً در دسترس نیست. لطفاً دوباره تلاش کنید.</string>
@@ -3279,7 +3279,7 @@
     <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">سیگنال برای نشان دادن مخاطبین شما نیاز به دسترسی مخاطبین دارد، اما این دسترسی داده نشده است. لطفاً به بخش مدیریت برنامه‌ها در تنظیمات تلفن همراه خود رفته، در بخش «مجوزها» گزینهٔ «مخاطبین» را فعال کنید.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">خطا در بازیابی مخاطبین، اتصال اینترنت خود را بررسی کنید</string>
     <string name="ContactSelectionListFragment_username_not_found">نام کاربری یافت نشد</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" کاربر سیگنال نیست. لطفاً نام کاربری را بررسی کرده و دوباره تلاش کنید."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">&quot;\&quot;%1$s\&quot; کاربر سیگنال نیست. لطفاً نام کاربری را بررسی کرده و دوباره تلاش کنید.&quot;</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">نیازی نیست که خود را به گروه اضافه کنید</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">به حداکثر اندازهٔ گروه رسیدید</string>
     <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">گروه‌های سیگنال می‌توانند حداکثر %1$d عضو داشته باشند.</string>
@@ -4587,7 +4587,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">گذرواژه نادرست بود</string>
     <string name="LocalBackupJob_creating_signal_backup">در حال ایجاد پشتیبان سیگنال…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان Molly…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان Encrypt…</string>
     <string name="LocalBackupJobApi29_backup_failed">پشتیبان‌گیری ناموفق بود</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">آدرس ذخیره‌سازی پشتیبان شما پاک شده یا به جای دیگری انتقال یافته است.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">حجم فایل پشتیبان شما برای نگهداری در این محل زیاد است.</string>
@@ -4627,7 +4627,7 @@
     <!-- Subtext below radio buttons when who can find me by number is set to nobody -->
     <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">هیچ‌کسی قادر به مشاهدۀ آنلاین بودن شما در سیگنال نیست، مگر اینکه به کسی پیام دهید یا گفتگویی فعلی با او داشته باشید.</string>
     <!-- Snackbar text when pressing invalid radio item -->
-    <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">"برای تغییر این تنظیمات، «چه‌کسی می‌تواند شمارۀ من را ببیند» را روی «هیچ‌کس» تنظیم کنید."</string>
+    <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">&quot;برای تغییر این تنظیمات، «چه‌کسی می‌تواند شمارۀ من را ببیند» را روی «هیچ‌کس» تنظیم کنید.&quot;</string>
     <!-- Dialog title shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
     <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_title">مطمئن هستید؟</string>
     <!-- Dialog warning message shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
@@ -4741,9 +4741,9 @@
     <string name="NewDeviceTransferInstructions__first_bullet">۱.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">روی عکس پروفایل خود در بالا سمت راست برای باز کردن تنظیمات ضربه بزنید</string>
     <string name="NewDeviceTransferInstructions__second_bullet">۲.</string>
-    <string name="NewDeviceTransferInstructions__tap_on_account">"روی «حساب کاربری» ضربه بزنید"</string>
+    <string name="NewDeviceTransferInstructions__tap_on_account">&quot;روی «حساب کاربری» ضربه بزنید&quot;</string>
     <string name="NewDeviceTransferInstructions__third_bullet">۳.</string>
-    <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">"روی «انتقال حساب کاربری» و سپس «ادامه» در هر دو دستگاه ضربه بزنید"</string>
+    <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">&quot;روی «انتقال حساب کاربری» و سپس «ادامه» در هر دو دستگاه ضربه بزنید&quot;</string>
 
     <!-- NewDeviceTransferSetupFragment -->
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">در حال آماده شدن برای اتصال به دستگاه اندروید قدیمی…</string>
@@ -4820,9 +4820,9 @@
     <string name="OldDeviceTransferInstructions__first_bullet">۱.</string>
     <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">سیگنال را روی دستگاه اندروید جدید خود بارگیری کنید</string>
     <string name="OldDeviceTransferInstructions__second_bullet">۲.</string>
-    <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"روی «انتقال یا بازیابی حساب کاربری» ضربه بزنید"</string>
+    <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">&quot;روی «انتقال یا بازیابی حساب کاربری» ضربه بزنید&quot;</string>
     <string name="OldDeviceTransferInstructions__third_bullet">۳.</string>
-    <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">"هنگام پرسیده شدن «انتقال از دستگاه اندروید» و سپس «ادامه» را انتخاب کنید. هر دو دستگاه را نزدیک نگه دارید."</string>
+    <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">&quot;هنگام پرسیده شدن «انتقال از دستگاه اندروید» و سپس «ادامه» را انتخاب کنید. هر دو دستگاه را نزدیک نگه دارید.&quot;</string>
     <string name="OldDeviceTransferInstructions__continue">ادامه</string>
 
     <!-- OldDeviceTransferComplete -->
@@ -4867,7 +4867,7 @@
     <string name="RecipientBottomSheet_remove_from_group">حذف از گروه</string>
 
     <string name="RecipientBottomSheet_remove_s_as_group_admin">آیا می‌خواهید %1$s را از سمت مدیر حذف کنید؟</string>
-    <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">"«%1$s» قادر خواهد بود تا این گروه و اعضای آن را ویرایش کند."</string>
+    <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">&quot;«%1$s» قادر خواهد بود تا این گروه و اعضای آن را ویرایش کند.&quot;</string>
 
     <string name="RecipientBottomSheet_remove_s_from_the_group">حذف کردن %1$s از گروه؟</string>
     <!-- Dialog message shown when removing someone from a group with group link being active to indicate they will not be able to rejoin -->
@@ -6578,7 +6578,7 @@
     <!-- Signal connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">بودن آن‌ها در مخاطبان تلفن شما</string>
     <!-- Note at the bottom of the Signal connections sheet -->
-    <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"آشنایان شما می‌توانند نام و عکس شما را ببینند، و می‌توانند پست‌های \"استوری من\" را ببینند، مگر اینکه آن را از آن‌ها مخفی کنید."</string>
+    <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">&quot;آشنایان شما می‌توانند نام و عکس شما را ببینند، و می‌توانند پست‌های \&quot;استوری من\&quot; را ببینند، مگر اینکه آن را از آن‌ها مخفی کنید.&quot;</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">افزودن بازدیدکننده</string>
     <!-- Clickable option to delete a custom story -->
@@ -6631,7 +6631,7 @@
     <!-- Dialog title for deleting a custom story -->
     <string name="StoryDialogs__delete_custom_story">استوری سفارشی پاک شود؟</string>
     <!-- Dialog message for deleting a custom story -->
-    <string name="StoryDialogs__s_and_updates_shared">\"%1$s\" و به‌روزرسانی‌های همرسانی شده در این استوری پاک خواهند شد.</string>
+    <string name="StoryDialogs__s_and_updates_shared">\&quot;%1$s\&quot; و به‌روزرسانی‌های همرسانی شده در این استوری پاک خواهند شد.</string>
     <!-- Dialog positive action for deleting a custom story -->
     <string name="StoryDialogs__delete">پاک کردن</string>
     <!-- Dialog title for first time sending something to a beta story -->
@@ -6953,7 +6953,7 @@
     <!-- Section header for who can view a group story -->
     <string name="GroupStorySettingsFragment__who_can_view_this_story">کسانی که می‌توانند این استوری را مشاهده کنند</string>
     <!-- Explanation of who can view a group story -->
-    <string name="GroupStorySettingsFragment__members_of_the_group_s">"اعضای گروه \"%1$s\" می‌توانند این استوری را مشاهده کنند و به آن پاسخ دهند. می‌توانید عضویت این گفتگو را در گروه به‌روزرسانی کنید."</string>
+    <string name="GroupStorySettingsFragment__members_of_the_group_s">&quot;اعضای گروه \&quot;%1$s\&quot; می‌توانند این استوری را مشاهده کنند و به آن پاسخ دهند. می‌توانید عضویت این گفتگو را در گروه به‌روزرسانی کنید.&quot;</string>
     <!-- Preference label for removing this group story -->
     <string name="GroupStorySettingsFragment__remove_group_story">حذف استوری گروهی</string>
 
@@ -7660,7 +7660,7 @@
     <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
     <string name="FindByActivity__s_is_not_a_valid_phone_number">‏%1$s شماره تلفن معتبری نیست. با یک شماره تلفن معتبر دوباره امتحان کنید</string>
     <!-- Dialog body for not found username -->
-    <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" یک کاربر سیگنال نیست. لطفاً نام کاربری را بررسی کرده و دوباره تلاش کنید.</string>
+    <string name="FindByActivity__s_is_not_a_signal_user">\&quot;%1$s\&quot; یک کاربر سیگنال نیست. لطفاً نام کاربری را بررسی کرده و دوباره تلاش کنید.</string>
     <!-- Dialog body for not found phone number -->
     <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s کاربر سیگنال نیست. آیا می خواهید این شماره را دعوت کنید؟</string>
     <!-- Dialog action to invite the phone number to Signal -->
@@ -8017,7 +8017,7 @@
     <!-- Text on dialog when user backup is deleted -->
     <string name="RemoteBackupsSettingsFragment__backup_deleted">پشتیبان پاک شد</string>
     <!-- Subtitle for frequency option MANUAL for backup frequency -->
-    <string name="RemoteBackupsSettingsFragment__by_tapping_back_up_now">"با ضربه زدن روی «اکنون پشتیبان‌گیری شود»"</string>
+    <string name="RemoteBackupsSettingsFragment__by_tapping_back_up_now">&quot;با ضربه زدن روی «اکنون پشتیبان‌گیری شود»&quot;</string>
     <!-- Title for frequency option DAILY for backup frequency -->
     <string name="RemoteBackupsSettingsFragment__daily">روزانه</string>
     <!-- Title for frequency option DAILY for backup frequency -->

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8"?><resources>
     <string name="AppProtectionPreferenceFragment_instant">क्षणात</string>
     <string name="WipeMemoryService_secure_wipe_in_progress">सुरक्षित नष्ट प्रक्रिया सुरू आहे</string>
     <string name="preferences__enable_debug_log">दुरुस्तीची नोंदवही सुरू</string>
@@ -10,5 +9,5 @@
     <string name="preferences__passphrase_lock">डेटाबेस</string>
     <string name="arrays__on_inactivity_timeout">जर तुम्ही तुमचा फोन काही वेळासाठी अनलॉक नाही</string>
     <string name="BlockUnblockDialog_block_and_delete">अवरोधित करा आणि हटवा</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly लॉक केले आहे</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Encrypt लॉक केले आहे</string>
 </resources>

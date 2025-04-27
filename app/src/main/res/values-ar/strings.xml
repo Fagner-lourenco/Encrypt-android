@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2024 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   --><!-- smartling.instruction_comments_enabled = on --><resources>
@@ -106,9 +106,9 @@
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">تعذَّر العثور على تطبيق لتحديد الوسائط.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج سيجنال إلى إذن الوصول إلى التخزين من أجل إرفاق الصور ومقاطع الفيديو والملفّات الصوتيّة، ولكن الإذن تمَّ رفضه بشكل دائم. يُرجى زيارة قائمة إعدادات التطبيق، واختيار \"الأذونات\"، ومن ثمّ تفعيل \"سعة التخزين\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">يحتاج سيجنال إلى إذن الوصول لجهات الاتصال من أجل إرفاق بيانات جهة الاتصال، ولكن الإذن تمَّ رفضه بشكل دائم. يُرجى زيارة قائمة إعدادات التطبيق، واختيار \"الأذونات\"، ومن ثمّ تفعيل \"جهات الاتصال\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">يحتاج سيجنال إلى إذن الوصول إلى الموقع من أجل إرفاق الموقع، ولكن تمَّ رفضه بشكلٍ دائم. يُرجى زيارة قائمة إعدادات التطبيق ثمّ اختيار \"الأذونات\" وتفعيل \"الموقع\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج سيجنال إلى إذن الوصول إلى التخزين من أجل إرفاق الصور ومقاطع الفيديو والملفّات الصوتيّة، ولكن الإذن تمَّ رفضه بشكل دائم. يُرجى زيارة قائمة إعدادات التطبيق، واختيار \&quot;الأذونات\&quot;، ومن ثمّ تفعيل \&quot;سعة التخزين\&quot;.</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">يحتاج سيجنال إلى إذن الوصول لجهات الاتصال من أجل إرفاق بيانات جهة الاتصال، ولكن الإذن تمَّ رفضه بشكل دائم. يُرجى زيارة قائمة إعدادات التطبيق، واختيار \&quot;الأذونات\&quot;، ومن ثمّ تفعيل \&quot;جهات الاتصال\&quot;.</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">يحتاج سيجنال إلى إذن الوصول إلى الموقع من أجل إرفاق الموقع، ولكن تمَّ رفضه بشكلٍ دائم. يُرجى زيارة قائمة إعدادات التطبيق ثمّ اختيار \&quot;الأذونات\&quot; وتفعيل \&quot;الموقع\&quot;.</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">منح الوصول لِموقعك</string>
@@ -151,7 +151,7 @@
     <string name="BlockedUsersActivity__blocked_users_will">لن يتمكن المستخدم المحظور من الاتصال بك ولا إرسال الرسائل إليك.</string>
     <string name="BlockedUsersActivity__no_blocked_users">لا يوجد مستخدمون محظورون</string>
     <string name="BlockedUsersActivity__block_user">هل ترغبُ بحظر المستخدم؟</string>
-    <string name="BlockedUserActivity__s_will_not_be_able_to">لن يتمكن \"%1$s\" من الاتصال بك ولا إرسال الرسائل إليك.</string>
+    <string name="BlockedUserActivity__s_will_not_be_able_to">لن يتمكن \&quot;%1$s\&quot; من الاتصال بك ولا إرسال الرسائل إليك.</string>
     <string name="BlockedUsersActivity__block">حظر</string>
 
     <!-- CreditCardFragment -->
@@ -511,14 +511,14 @@
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">لإرسال رسائل صوتية، اسمح لسيجنال بالوصول إلى الميكروفون.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_message">يحتاج سيجنال إلى الوصول للميكروفون لتسجيل رسالة صوتية.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">يحتاج سيجنال إلى إذن الوصول إلى الميكروفون لإرسال الرسائل الصوتية، ولكن تمَّ إيقاف الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق ثم اختيار \"الأذونات\" وتفعيل \"الميكروفون\".</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">يحتاج سيجنال إلى إذن الوصول إلى الميكروفون لإرسال الرسائل الصوتية، ولكن تمَّ إيقاف الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق ثم اختيار \&quot;الأذونات\&quot; وتفعيل \&quot;الميكروفون\&quot;.</string>
 
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">يحتاج سيجنال إلى إذنَي الوصول إلى الميكروفون والكاميرا من أجل الاتصال بـ %1$s، ولكن تمَّ إيقافهما على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق ثم اختيار \"الأذونات\" وتفعيل \"الميكروفون\" و\"الكاميرا\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">يحتاج سيجنال إلى إذنَي الوصول إلى الميكروفون والكاميرا من أجل الاتصال بـ %1$s، ولكن تمَّ إيقافهما على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق ثم اختيار \&quot;الأذونات\&quot; وتفعيل \&quot;الميكروفون\&quot; و\&quot;الكاميرا\&quot;.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">لالتقاط الصور ومقاطع الفيديو، يُرجى السماح لسيجنال بالوصول إلى الكاميرا.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل التقاط الصور ومقاطع الفيديو، ولكن تمَّ إيقاف الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق واختيار \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل التقاط الصور ومقاطع الفيديو، ولكن تمَّ إيقاف الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق واختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;الكاميرا\&quot;.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا لالتقاط الصور أو تسجيل مقاطع الفيديو.</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">يُرجى تفعيل الإذن للميكروفون للتمكُّن من تسجيل مقاطع الفيديو مع الصوت.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">يحتاج سيجنال إلى أذونات الوصول إلى الميكروفون لتسجيل مقاطع الفيديو، لكنه لم يُمنَح الإذن. يُرجى الذهاب إلى إعدادات التطبيق ثم اختيار \"الأذونات\" وتفعيل \"الميكروفون\" و \"الكاميرا\".</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">يحتاج سيجنال إلى أذونات الوصول إلى الميكروفون لتسجيل مقاطع الفيديو، لكنه لم يُمنَح الإذن. يُرجى الذهاب إلى إعدادات التطبيق ثم اختيار \&quot;الأذونات\&quot; وتفعيل \&quot;الميكروفون\&quot; و \&quot;الكاميرا\&quot;.</string>
     <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">يحتاج سيجنال الى إذن الوصول إلى الميكروفون لتسجيل مقاطع الفيديو.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
@@ -640,7 +640,7 @@
     <string name="ConversationFragment_failed_to_open_message">فشل في فتح الرسالة</string>
     <string name="ConversationFragment_you_can_swipe_to_the_right_reply">يمكنك السحب إلى اليسار فوق أي رسالة للرد بسرعة.</string>
     <string name="ConversationFragment_you_can_swipe_to_the_left_reply">يمكنك السحب إلى اليمين فوق أي رسالة للرد بسرعة.</string>
-    <string name="ConversationFragment_view_once_media_is_deleted_after_sending">تُحذف \"وسائط العرض لِمرّة واحدة\" بعد الإرسال.</string>
+    <string name="ConversationFragment_view_once_media_is_deleted_after_sending">تُحذف \&quot;وسائط العرض لِمرّة واحدة\&quot; بعد الإرسال.</string>
     <string name="ConversationFragment_you_already_viewed_this_message">سبَق لك رؤية هذه الرسالة.</string>
     <string name="ConversationFragment__you_can_add_notes_for_yourself_in_this_conversation">يُمكِنُك إضافة مُلاحظات لنفسك في هذه الدردشة. إذا كان حسابك يحتوي على أي أجهزة مُرتبطة، ستتم مُزامنة المُلاحظات الجديدة.</string>
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d أعضاء بالمجموعة لهم نفس اﻻسم.</string>
@@ -651,7 +651,7 @@
     <string name="ConversationFragment_verify">التحقُّق</string>
     <string name="ConversationFragment_not_now">ليس الآن</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">تغيَّر رقم الأمان الخاص بك المُقترِن بالمستخدم %1$s</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">تغيَّر رقم الأمان الخاص بك المُقترِن بالمستخدم %1$s. يُحتَمل أن يكون هذا الشخص قد أعاد تثبيت سيجنال أو أنه غيَّر جهازه. يُرجى النقر على زر \"التحقُّق\" لتأكيد رقم اﻷمان الجديد. هذا اﻹجراء اختياري.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">تغيَّر رقم الأمان الخاص بك المُقترِن بالمستخدم %1$s. يُحتَمل أن يكون هذا الشخص قد أعاد تثبيت سيجنال أو أنه غيَّر جهازه. يُرجى النقر على زر \&quot;التحقُّق\&quot; لتأكيد رقم اﻷمان الجديد. هذا اﻹجراء اختياري.</string>
     <!-- Dialog title for block group link join requests -->
     <string name="ConversationFragment__block_request">هل ترغبُ بحظر الطلب؟</string>
     <!-- Dialog message for block group link join requests -->
@@ -728,7 +728,7 @@
     <!-- Title of tip 2 -->
     <string name="SafetyTips_tip2_title">الرسائل الغامضة أو غير ذات الصلة</string>
     <!-- Message of tip 2 -->
-    <string name="SafetyTips_tip2_message">يبدأ مُرسلو الرسائل غير المرغوب فيها برسالة بسيطة مثل \"مرحبًا\" لجذبك. إذا قُمت بالرد، فسيُواصلون التفاعل معك.</string>
+    <string name="SafetyTips_tip2_message">يبدأ مُرسلو الرسائل غير المرغوب فيها برسالة بسيطة مثل \&quot;مرحبًا\&quot; لجذبك. إذا قُمت بالرد، فسيُواصلون التفاعل معك.</string>
     <!-- Title of tip 3 -->
     <string name="SafetyTips_tip3_title">الرسائل التي تتضمّن روابط</string>
     <!-- Message of tip 3 -->
@@ -850,15 +850,15 @@
     <!-- Bottom sheet title when choosing a folder to add a chat to -->
     <string name="AddToFolderBottomSheet_choose_a_folder">اِختر مجلد</string>
     <!-- Toast shown when a chat has been added to a folder, where %s is the name of the folder -->
-    <string name="AddToFolderBottomSheet_added_to_s">تمَّت الإضافة إلى \"%1$s\"</string>
+    <string name="AddToFolderBottomSheet_added_to_s">تمَّت الإضافة إلى \&quot;%1$s\&quot;</string>
     <!-- Toast shown when a user tries to add chats to a folder, but the folder already has those chats. %s is the name of the folder -->
     <plurals name="AddToFolderBottomSheet_these_chat_are_already_in_s">
-        <item quantity="zero">هذه الدردشات موجودة في \"%1$s\".</item>
-        <item quantity="one">هذه الدردشة موجودة في \"%1$s\".</item>
-        <item quantity="two">هاتان الدردشتان موجودتان في \"%1$s\".</item>
-        <item quantity="few">هذه الدردشات موجودة في \"%1$s\".</item>
-        <item quantity="many">هذه الدردشات موجودة في \"%1$s\"</item>
-        <item quantity="other">هذه الدردشات موجودة في \"%1$s\"</item>
+        <item quantity="zero">هذه الدردشات موجودة في \&quot;%1$s\&quot;.</item>
+        <item quantity="one">هذه الدردشة موجودة في \&quot;%1$s\&quot;.</item>
+        <item quantity="two">هاتان الدردشتان موجودتان في \&quot;%1$s\&quot;.</item>
+        <item quantity="few">هذه الدردشات موجودة في \&quot;%1$s\&quot;.</item>
+        <item quantity="many">هذه الدردشات موجودة في \&quot;%1$s\&quot;</item>
+        <item quantity="other">هذه الدردشات موجودة في \&quot;%1$s\&quot;</item>
     </plurals>
 
     <!-- Show in conversation list overflow menu to open selection bottom sheet -->
@@ -886,9 +886,9 @@
     <!-- Title for a reminder bottom sheet to users who have re-registered that they need to go back to re-link their devices. -->
     <string name="RelinkDevicesReminderFragment__relink_your_devices">أعِد ربط أجهزتك</string>
     <!-- Description for a reminder bottom sheet to users who have re-registered that they need to go back to re-link their devices. -->
-    <string name="RelinkDevicesReminderFragment__the_devices_you_added_were_unlinked">تمَّ إلغاء ربط الأجهزة التي أضفتها عند إلغاء تسجيل جهازك. \"انتقِل إلى الإعدادات\" لتعيد ربط أي أجهزة.</string>
+    <string name="RelinkDevicesReminderFragment__the_devices_you_added_were_unlinked">تمَّ إلغاء ربط الأجهزة التي أضفتها عند إلغاء تسجيل جهازك. \&quot;انتقِل إلى الإعدادات\&quot; لتعيد ربط أي أجهزة.</string>
     <!-- Button label for the re-link devices bottom sheet reminder to navigate to the Devices page in the settings. -->
-    <string name="RelinkDevicesReminderFragment__open_settings">فتح \"الإعدادات\"</string>
+    <string name="RelinkDevicesReminderFragment__open_settings">فتح \&quot;الإعدادات\&quot;</string>
     <!-- Button label for the re-link devices bottom sheet reminder to dismiss the pop up. -->
     <string name="RelinkDevicesReminderFragment__later">لاحقًا</string>
 
@@ -950,9 +950,9 @@
     <!-- Headline text for a bottom sheet dialog shown when the restoration of the media backup fails. -->
     <string name="RestoreMediaFailedBottomSheet__Cant_restore_media">تعذَّر استرجاع الوسائط.</string>
     <!-- Help text for a bottom sheet dialog shown when the restoration of the media backup fails, displayed while the app is calculating the amount of disk space required. -->
-    <string name="RestoreMediaFailedBottomSheet__Your_device_does_not_have_enough_free_space_placeholder">لا يتوفَّر في جهازك مساحة كافية. وفِّر مساحة تخزين لاسترجاع وسائطك.\n\nإذا اخترت \"تخطِّي الاستعادة\"، فسيتمُّ حذف الوسائط في نسختك الاحتياطية في المرة القادمة التي يُكمل فيها جهازك حفظ نسخة احتياطية جديدة.</string>
+    <string name="RestoreMediaFailedBottomSheet__Your_device_does_not_have_enough_free_space_placeholder">لا يتوفَّر في جهازك مساحة كافية. وفِّر مساحة تخزين لاسترجاع وسائطك.\n\nإذا اخترت \&quot;تخطِّي الاستعادة\&quot;، فسيتمُّ حذف الوسائط في نسختك الاحتياطية في المرة القادمة التي يُكمل فيها جهازك حفظ نسخة احتياطية جديدة.</string>
     <!-- Help text for a bottom sheet dialog shown when the restoration of the media backup fails, displayed once the app knows how much disk space is required. The placeholder is a filesize, such as "1.23 GB." -->
-    <string name="RestoreMediaFailedBottomSheet__Your_device_does_not_have_enough_free_space">لا يتوفَّر في جهازك مساحة كافية. وفِّر %1$s من المساحة لاسترجاع وسائطك.\n\nإذا اخترتَ \"تخطِّي الاستعادة\"، فسَيمُّ حذف الوسائط في نسختك الاحتياطية في المرة القادمة التي يُكمل فيها جهازك حفظ نسخة احتياطية جديدة.</string>
+    <string name="RestoreMediaFailedBottomSheet__Your_device_does_not_have_enough_free_space">لا يتوفَّر في جهازك مساحة كافية. وفِّر %1$s من المساحة لاسترجاع وسائطك.\n\nإذا اخترتَ \&quot;تخطِّي الاستعادة\&quot;، فسَيمُّ حذف الوسائط في نسختك الاحتياطية في المرة القادمة التي يُكمل فيها جهازك حفظ نسخة احتياطية جديدة.</string>
     <!-- Confirmation button to dismiss bottom sheet dialog without aborting the restoration process. -->
     <string name="RestoreMediaFailedBottomSheet__Okay">موافق</string>
     <!-- Negative button on a bottom sheet dialog shown when the restoration of the media backup fails. This aborts the restoration process. -->
@@ -994,7 +994,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">اختبر العبارة السرية للنسخة الاحتياطية الخاصة بك وتأكَّد من تطابقها.</string>
     <string name="BackupsPreferenceFragment__turn_on">تشغيل</string>
     <string name="BackupsPreferenceFragment__turn_off">إيقاف</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"لاستعادة النسخة الاحتياطية، قُم بتثبيت نسخة جديدة من سيجنال. افتح التطبيق وانقر على \"استعادة النسخة الاحتياطية\"، ثم حدِّد مكان ملف النسخة الاحتياطية. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">&quot;لاستعادة النسخة الاحتياطية، قُم بتثبيت نسخة جديدة من سيجنال. افتح التطبيق وانقر على \&quot;استعادة النسخة الاحتياطية\&quot;، ثم حدِّد مكان ملف النسخة الاحتياطية. %1$s&quot;</string>
     <string name="BackupsPreferenceFragment__learn_more">اعرف المزيد</string>
     <string name="BackupsPreferenceFragment__in_progress">قيد المعالجة…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -1003,7 +1003,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d حتى الآن…‏</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">‫%1$s%% إلى الآن…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">يحتاج سيجنال إلى إذن الوصول إلى مساحة تخزين خارجية لإنشاء نسخ احتياطية، ولكن رُفِض الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق واختيار \"الصلاحيات\"، ثم تفعيل \"مساحة التخزين\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">يحتاج سيجنال إلى إذن الوصول إلى مساحة تخزين خارجية لإنشاء نسخ احتياطية، ولكن رُفِض الإذن على نحو دائم. يُرجى الاطِّلاع على إعدادات التطبيق واختيار \&quot;الصلاحيات\&quot;، ثم تفعيل \&quot;مساحة التخزين\&quot;.</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">ضبط وقت النسخ الاحتياطي</string>
 
@@ -1111,9 +1111,9 @@
     <!-- Dialog confirmation to unlink a device -->
     <string name="LinkDeviceFragment__unlink">إلغاء الارتباط</string>
     <!-- Toast message indicating a device has been unlinked, where %s is the name of the device -->
-    <string name="LinkDeviceFragment__s_unlinked">تمَّ فصل الارتباط بـ \"%1$s\"</string>
+    <string name="LinkDeviceFragment__s_unlinked">تمَّ فصل الارتباط بـ \&quot;%1$s\&quot;</string>
     <!-- Toast message indicating a device has been successfully linked, where %s is the name of the device -->
-    <string name="LinkDeviceFragment__s_linked">تمَّ الربط بـ \"%1$s\"</string>
+    <string name="LinkDeviceFragment__s_linked">تمَّ الربط بـ \&quot;%1$s\&quot;</string>
     <!-- Progress dialog message indicating that a device is currently being linked with an account -->
     <string name="LinkDeviceFragment__linking_device">جارٍ ربط جهاز…</string>
     <!-- Toast message shown after a device has been linked -->
@@ -1129,7 +1129,7 @@
     <!-- Title on bottom sheet explaining our usage of biometrics to link a device -->
     <string name="LinkDeviceFragment__before_linking">قبل الربط، قُم بتأكيد هويتك.</string>
     <!-- Body of bottom sheet explaining that users should use their device pin or biometrics and not their Signal pin -->
-    <string name="LinkDeviceFragment__tap_continue_and_enter_phone">انقر على \"متابعة\" وأدخِل قفل هاتفك للتأكيد. لا تُدخِل رقم التعريف الشخصي (PIN) على سيجنال الخاص بك.</string>
+    <string name="LinkDeviceFragment__tap_continue_and_enter_phone">انقر على \&quot;متابعة\&quot; وأدخِل قفل هاتفك للتأكيد. لا تُدخِل رقم التعريف الشخصي (PIN) على سيجنال الخاص بك.</string>
     <!-- Button that dismisses the bottom sheet -->
     <string name="LinkDeviceFragment__continue">متابعة</string>
     <!-- Option on button to contact support -->
@@ -1223,7 +1223,7 @@
     <string name="NewLinkedDeviceNotification__a_new_device_was_linked">تمَّ ربط جهاز جديد بِحسابك %1$s. انقر للمشاهدة.</string>
 
     <!-- DeviceListActivity -->
-    <string name="DeviceListActivity_unlink_s">أترغبُ بفصل الربط بـ \"%1$s\"؟</string>
+    <string name="DeviceListActivity_unlink_s">أترغبُ بفصل الربط بـ \&quot;%1$s\&quot;؟</string>
     <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">لن يكون إرسال واستقبال الرسائل مُمكِنًا بمُجرَّد إلغاء ربط الجهاز.</string>
     <string name="DeviceListActivity_network_connection_failed">فَشِلَ الاتصال بالشبكة</string>
     <!-- Button label on an alert dialog. The dialog informs the user they have network issues. If pressed, we will retry the network request. -->
@@ -1263,7 +1263,7 @@
 
     <!-- GcmRefreshJob -->
     <string name="GcmRefreshJob_Permanent_Signal_communication_failure">فشل دائم في الاتصال بـ سيجنال!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">لم يتمكن سيجنال من التسجيل عبر خدمات Google Play، وتمَّ تعطيل رسائل ومكالمات سيجنال. الرجاء محاولة إعادة التسجيل عبر قائمة \"الإعدادات\" &gt; ثم اختيار \"مُتقدِّم\".</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">لم يتمكن سيجنال من التسجيل عبر خدمات Google Play، وتمَّ تعطيل رسائل ومكالمات سيجنال. الرجاء محاولة إعادة التسجيل عبر قائمة \&quot;الإعدادات\&quot; &gt; ثم اختيار \&quot;مُتقدِّم\&quot;.</string>
 
 
     <!-- GiphyActivity -->
@@ -1273,7 +1273,7 @@
 
     <!-- AddToGroupActivity -->
     <string name="AddToGroupActivity_add_member">أترغبُ بإضافة عضو؟</string>
-    <string name="AddToGroupActivity_add_s_to_s">أترغبُ بإضافة \"%1$s\" إلى \"%2$s\"؟</string>
+    <string name="AddToGroupActivity_add_s_to_s">أترغبُ بإضافة \&quot;%1$s\&quot; إلى \&quot;%2$s\&quot;؟</string>
     <string name="AddToGroupActivity_s_added_to_s">تمَّت إضافة %1$s إلى %2$s.</string>
     <string name="AddToGroupActivity_add_to_group">أضِف إلى مجموعة</string>
     <string name="AddToGroupActivity_add_to_groups">أضِف إلى مجموعات</string>
@@ -1284,7 +1284,7 @@
     <!-- ChooseNewAdminActivity -->
     <string name="ChooseNewAdminActivity_choose_new_admin">اختر مُشرِفًا جديدًا</string>
     <string name="ChooseNewAdminActivity_done">تم</string>
-    <string name="ChooseNewAdminActivity_you_left">غادرتَ \"%1$s\".</string>
+    <string name="ChooseNewAdminActivity_you_left">غادرتَ \&quot;%1$s\&quot;.</string>
 
     <!-- GroupMembersDialog -->
     <string name="GroupMembersDialog_you">أنت</string>
@@ -1314,7 +1314,7 @@
         <item quantity="other">تمَّ إرسال %1$d دعوة.</item>
     </plurals>
     <!-- Dialog message shown when you are attempting to add a single contact to a group and you don\'t have enough information about them to do it automatically, so must do it via an invite instead. Placeholder is name/username/phone number. -->
-    <string name="GroupManagement_invite_single_user">لا يُمكن إضافة \"%1$s\" تلقائيًا للمجموعة بواسطتك. \n\n تمَّت دعوته للانضمام، لكنه لن يرى أي رسالة من رسائل المجموعة حتى يقبل الدعوة.</string>
+    <string name="GroupManagement_invite_single_user">لا يُمكن إضافة \&quot;%1$s\&quot; تلقائيًا للمجموعة بواسطتك. \n\n تمَّت دعوته للانضمام، لكنه لن يرى أي رسالة من رسائل المجموعة حتى يقبل الدعوة.</string>
     <string name="GroupManagement_invite_multiple_users">لا يمكنك إضافة هؤلاء المستخدمين تلقائيًا إلى هذه المجموعة . \n \n تمَّت دعوتهم للانضمام، ولن يروا أيّة رسالة من رسائل المجموعة حتى يقبلون الدعوة.</string>
 
     <!-- GroupsV1MigrationLearnMoreBottomSheetDialogFragment -->
@@ -1467,7 +1467,7 @@
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">قد تتأخر الإشعارات في الوصول بسبب بعض التحسينات في استخدام البطارية.</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">يُمكنك إيقاف تحسينات استخدام البطارية لسيجنال لضمان عدم تأخر وصول إشعارات الرسائل. انقر \"متابعة\" للاطِّلاع على الإرشادات الخاصة بالجهاز.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">يُمكنك إيقاف تحسينات استخدام البطارية لسيجنال لضمان عدم تأخر وصول إشعارات الرسائل. انقر \&quot;متابعة\&quot; للاطِّلاع على الإرشادات الخاصة بالجهاز.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">لا، شكرًا</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1519,20 +1519,20 @@
     <string name="RequestingMembersFragment_pending_member_requests">طلبات الأعضاء المُعلَّقة</string>
     <string name="RequestingMembersFragment_no_member_requests_to_show">لا وجود لأي طلبات عضوية.</string>
     <string name="RequestingMembersFragment_explanation">يحاول الأشخاص الموجودون في هذه القائمة الانضمام إلى هذه المجموعة عبر رابط المجموعة.‏</string>
-    <string name="RequestingMembersFragment_added_s">"تمَّت إضافة \"%1$s\""</string>
-    <string name="RequestingMembersFragment_denied_s">"تمَّ رفض \"%1$s\""</string>
+    <string name="RequestingMembersFragment_added_s">&quot;تمَّت إضافة \&quot;%1$s\&quot;&quot;</string>
+    <string name="RequestingMembersFragment_denied_s">&quot;تمَّ رفض \&quot;%1$s\&quot;&quot;</string>
 
     <!-- AddMembersActivity -->
     <string name="AddMembersActivity__done">تم</string>
     <string name="AddMembersActivity__this_person_cant_be_added_to_legacy_groups">لا يمكن إضافة هذا الشخص إلى المجموعات السابقة.</string>
     <!-- Confirmation text when adding a member to a group. If one person is added, %1$s is their name. If multiple people are added, the total number is %3$d. %2$s is the name of the group -->
     <plurals name="AddMembersActivity__add_d_members_to_s">
-        <item quantity="zero">هل ترغبُ بإضافة %3$d عضوًا إلى \"%2$s\"؟</item>
-        <item quantity="one">هل ترغبُ بإضافة \"%1$s\" إلى \"%2$s\"؟</item>
-        <item quantity="two">هل ترغبُ بإضافة %3$d عضوين إلى \"%2$s\"؟</item>
-        <item quantity="few">هل ترغبُ بإضافة %3$d أعضاء إلى \"%2$s\"؟</item>
-        <item quantity="many">هل ترغبُ بإضافة %3$d عضوًا إلى \"%2$s\"؟</item>
-        <item quantity="other">هل ترغبُ بإضافة %3$d عضوٍ إلى \"%2$s\"؟</item>
+        <item quantity="zero">هل ترغبُ بإضافة %3$d عضوًا إلى \&quot;%2$s\&quot;؟</item>
+        <item quantity="one">هل ترغبُ بإضافة \&quot;%1$s\&quot; إلى \&quot;%2$s\&quot;؟</item>
+        <item quantity="two">هل ترغبُ بإضافة %3$d عضوين إلى \&quot;%2$s\&quot;؟</item>
+        <item quantity="few">هل ترغبُ بإضافة %3$d أعضاء إلى \&quot;%2$s\&quot;؟</item>
+        <item quantity="many">هل ترغبُ بإضافة %3$d عضوًا إلى \&quot;%2$s\&quot;؟</item>
+        <item quantity="other">هل ترغبُ بإضافة %3$d عضوٍ إلى \&quot;%2$s\&quot;؟</item>
     </plurals>
     <string name="AddMembersActivity__add">إضافة</string>
     <string name="AddMembersActivity__add_members">إضافة أعضاء</string>
@@ -1666,7 +1666,7 @@
     <!-- The title of a pop-up dialog asking the user to confirm deleting their username -->
     <string name="ManageProfileFragment__delete_username_dialog_title">أترغبُ بحذف اسم المُستخدم؟</string>
     <!-- The body of a pop-up dialog asking the user to confirm deleting their username -->
-    <string name="ManageProfileFragment__delete_username_dialog_body">"سيُؤدي هذا إلى إزالة اسم المُستخدم الخاص بك وتعطيل كود الـ QR والرابط الخاصين بك. \"%1$s\" سيُصبح متاحًا للآخرين ليستفيدوا منه. هل أنت متأكد؟"</string>
+    <string name="ManageProfileFragment__delete_username_dialog_body">&quot;سيُؤدي هذا إلى إزالة اسم المُستخدم الخاص بك وتعطيل كود الـ QR والرابط الخاصين بك. \&quot;%1$s\&quot; سيُصبح متاحًا للآخرين ليستفيدوا منه. هل أنت متأكد؟&quot;</string>
 
     <!-- UsernameOutOfSyncReminder -->
     <!-- Displayed above the conversation list when a user needs to address an issue with their username -->
@@ -1785,10 +1785,10 @@
     <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_you_are_not_currently_a_member_of_the_group">لستَ عضوًا في المجموعة حاليًا.</string>
 
     <!-- GV2 Request confirmation dialog -->
-    <string name="RequestConfirmationDialog_add_s_to_the_group">أترغبُ بإضافة \"%1$s\" إلى المجموعة؟</string>
-    <string name="RequestConfirmationDialog_deny_request_from_s">أترغبُ برفض طلب \"%1$s\"؟</string>
+    <string name="RequestConfirmationDialog_add_s_to_the_group">أترغبُ بإضافة \&quot;%1$s\&quot; إلى المجموعة؟</string>
+    <string name="RequestConfirmationDialog_deny_request_from_s">أترغبُ برفض طلب \&quot;%1$s\&quot;؟</string>
     <!-- Confirm dialog message shown when deny a group link join request and group link is enabled. -->
-    <string name="RequestConfirmationDialog_deny_request_from_s_they_will_not_be_able_to_request">أترغبُ برفض طلب انضمام المستخدم \"%1$s\"؟ لن يتمكن المُستخدم من إرسال طلب الانضمام مرّة أخرى بواسطة رابط للمجموعة.</string>
+    <string name="RequestConfirmationDialog_deny_request_from_s_they_will_not_be_able_to_request">أترغبُ برفض طلب انضمام المستخدم \&quot;%1$s\&quot;؟ لن يتمكن المُستخدم من إرسال طلب الانضمام مرّة أخرى بواسطة رابط للمجموعة.</string>
     <string name="RequestConfirmationDialog_add">إضافة</string>
     <string name="RequestConfirmationDialog_deny">رفض</string>
 
@@ -1996,16 +1996,16 @@
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">حددتَ مؤقِّت إخفاء الرسالة إلى %1$s.</string>
     <string name="MessageRecord_s_set_disappearing_message_time_to_s">%1$s حدَّد مؤقِّت إخفاء الرسالة إلى %2$s.</string>
     <string name="MessageRecord_disappearing_message_time_set_to_s">تمَّ ضبط مؤقِّت إخفاء الرسالة إلى %1$s.</string>
-    <string name="MessageRecord_this_group_was_updated_to_a_new_group">تمَّ تحديث هذه المجموعة إلى \"مجموعة جديدة\".</string>
-    <string name="MessageRecord_you_couldnt_be_added_to_the_new_group_and_have_been_invited_to_join">تعذَّرت إضافتك إلى \"المجموعة الجديدة\"، وقد تمَّت دعوتك للانضمام.</string>
+    <string name="MessageRecord_this_group_was_updated_to_a_new_group">تمَّ تحديث هذه المجموعة إلى \&quot;مجموعة جديدة\&quot;.</string>
+    <string name="MessageRecord_you_couldnt_be_added_to_the_new_group_and_have_been_invited_to_join">تعذَّرت إضافتك إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوتك للانضمام.</string>
     <string name="MessageRecord_chat_session_refreshed">تمَّ تحديث جلسة الدردشة.</string>
     <plurals name="MessageRecord_members_couldnt_be_added_to_the_new_group_and_have_been_invited">
-        <item quantity="zero">تعذّرت إضافة %1$s عضو إلى \"المجموعة الجديدة\"، وقد تمَّت دعوته إليها.</item>
-        <item quantity="one">تعذّرت إضافة عضو واحد إلى \"المجموعة الجديدة\"، وقد تمَّت دعوته إليها.</item>
-        <item quantity="two">تعذّرت إضافة %1$s عضوين إلى \"المجموعة الجديدة\"، وقد تمَّت دعوتهما إليها.</item>
-        <item quantity="few">تعذّرت إضافة %1$s أعضاء إلى \"المجموعة الجديدة\"، وقد تمَّت دعوتهم إليها.</item>
-        <item quantity="many">تعذّرت إضافة %1$s عضوًا إلى \"المجموعة الجديدة\"، وقد تمَّت دعوتهم إليها.</item>
-        <item quantity="other">تعذّرت إضافة %1$s عضو إلى\" المجموعة الجديدة\"، وقد تمَّت دعوتهم إليها.</item>
+        <item quantity="zero">تعذّرت إضافة %1$s عضو إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوته إليها.</item>
+        <item quantity="one">تعذّرت إضافة عضو واحد إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوته إليها.</item>
+        <item quantity="two">تعذّرت إضافة %1$s عضوين إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوتهما إليها.</item>
+        <item quantity="few">تعذّرت إضافة %1$s أعضاء إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوتهم إليها.</item>
+        <item quantity="many">تعذّرت إضافة %1$s عضوًا إلى \&quot;المجموعة الجديدة\&quot;، وقد تمَّت دعوتهم إليها.</item>
+        <item quantity="other">تعذّرت إضافة %1$s عضو إلى\&quot; المجموعة الجديدة\&quot;، وقد تمَّت دعوتهم إليها.</item>
     </plurals>
 
     <plurals name="MessageRecord_members_couldnt_be_added_to_the_new_group_and_have_been_removed">
@@ -2115,9 +2115,9 @@
     <string name="MessageRecord_s_added_invited_member_s">أضاف %1$s العضو %2$s الذي دُعيَ من قبل.</string>
 
     <!-- GV2 title change -->
-    <string name="MessageRecord_you_changed_the_group_name_to_s">قمتَ بتغيير اسم المجموعة إلى \"%1$s\".</string>
-    <string name="MessageRecord_s_changed_the_group_name_to_s">قام العضو %1$s بتغيير اسم المجموعة إلى \"%2$s \".</string>
-    <string name="MessageRecord_the_group_name_has_changed_to_s">تمَّ تغيير اسم المجموعة إلى \"%1$s\".</string>
+    <string name="MessageRecord_you_changed_the_group_name_to_s">قمتَ بتغيير اسم المجموعة إلى \&quot;%1$s\&quot;.</string>
+    <string name="MessageRecord_s_changed_the_group_name_to_s">قام العضو %1$s بتغيير اسم المجموعة إلى \&quot;%2$s \&quot;.</string>
+    <string name="MessageRecord_the_group_name_has_changed_to_s">تمَّ تغيير اسم المجموعة إلى \&quot;%1$s\&quot;.</string>
 
     <!-- GV2 description change -->
     <string name="MessageRecord_you_changed_the_group_description">غيَّرتَ وصف المجموعة.</string>
@@ -2130,14 +2130,14 @@
     <string name="MessageRecord_the_group_group_avatar_has_been_changed">تمَّ تغيير الصورة الرمزية للمجموعة.</string>
 
     <!-- GV2 attribute access level change -->
-    <string name="MessageRecord_you_changed_who_can_edit_group_info_to_s">قمتَ بتغيير من يمكنه تعديل معلومات المجموعة ليصبح \"%1$s\".</string>
-    <string name="MessageRecord_s_changed_who_can_edit_group_info_to_s">غيَّر العضو %1$s من يمكنه تحرير معلومات المجموعة ليصبح \"%2$s\".</string>
-    <string name="MessageRecord_who_can_edit_group_info_has_been_changed_to_s">تمَّ تغيير من يمكنهم تعديل معلومات المجموعة ليصبح \"%1$s\".</string>
+    <string name="MessageRecord_you_changed_who_can_edit_group_info_to_s">قمتَ بتغيير من يمكنه تعديل معلومات المجموعة ليصبح \&quot;%1$s\&quot;.</string>
+    <string name="MessageRecord_s_changed_who_can_edit_group_info_to_s">غيَّر العضو %1$s من يمكنه تحرير معلومات المجموعة ليصبح \&quot;%2$s\&quot;.</string>
+    <string name="MessageRecord_who_can_edit_group_info_has_been_changed_to_s">تمَّ تغيير من يمكنهم تعديل معلومات المجموعة ليصبح \&quot;%1$s\&quot;.</string>
 
     <!-- GV2 membership access level change -->
-    <string name="MessageRecord_you_changed_who_can_edit_group_membership_to_s">قمتَ بتغيير الأشخاص الذين يستطيعون تعديل عضوية المجموعة إلى \"%1$s\".</string>
-    <string name="MessageRecord_s_changed_who_can_edit_group_membership_to_s">غيَّر %1$s الأشخاص الذين يستطيعون تعديل عضوية المجموعة إلى \"%2$s\".</string>
-    <string name="MessageRecord_who_can_edit_group_membership_has_been_changed_to_s">تمَّ تغيير من يمكنهم تعديل عضوية المجموعة ليصبح \"%1$s\".</string>
+    <string name="MessageRecord_you_changed_who_can_edit_group_membership_to_s">قمتَ بتغيير الأشخاص الذين يستطيعون تعديل عضوية المجموعة إلى \&quot;%1$s\&quot;.</string>
+    <string name="MessageRecord_s_changed_who_can_edit_group_membership_to_s">غيَّر %1$s الأشخاص الذين يستطيعون تعديل عضوية المجموعة إلى \&quot;%2$s\&quot;.</string>
+    <string name="MessageRecord_who_can_edit_group_membership_has_been_changed_to_s">تمَّ تغيير من يمكنهم تعديل عضوية المجموعة ليصبح \&quot;%1$s\&quot;.</string>
 
     <!-- GV2 announcement group change -->
     <string name="MessageRecord_you_allow_all_members_to_send">قمتَ بتغيير إعدادات المجموعة للسماح للمُشرِفين فقط بإرسال الرسائل.</string>
@@ -2445,9 +2445,9 @@
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">عذرًا، لديك عدة أجهزة مرتبطة. يُرجى إزالة بعضها.</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">عذرًا، كود الـ QR الخاص برابط هذا الجهاز غير صالح.</string>
     <string name="DeviceProvisioningActivity_link_a_signal_device">هل ترغبُ بربط جهاز يستخدم سيجنال؟</string>
-    <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">لِربط حاسوب أو جهاز آيباد بحساب سيجنال هذا، انتقِل إلى \"الأجهزة المُرتبِطة\" وانقر على \"ربط جهاز جديد\" وامسح ضوئيًا كود الـ QR من جديد. تأكَّد من مسح كود الـ QR الصادر مباشرًة من سيجنال فقط.</string>
+    <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">لِربط حاسوب أو جهاز آيباد بحساب سيجنال هذا، انتقِل إلى \&quot;الأجهزة المُرتبِطة\&quot; وانقر على \&quot;ربط جهاز جديد\&quot; وامسح ضوئيًا كود الـ QR من جديد. تأكَّد من مسح كود الـ QR الصادر مباشرًة من سيجنال فقط.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل مسح كود الـ QR ضوئيًا، ولكن رُفِض الإذن بشكلٍ دائم. يُرجى زيارة \"الإعدادات\" في جهازك، وتحديد \"التطبيقات\"، ثم اختيار \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل مسح كود الـ QR ضوئيًا، ولكن رُفِض الإذن بشكلٍ دائم. يُرجى زيارة \&quot;الإعدادات\&quot; في جهازك، وتحديد \&quot;التطبيقات\&quot;، ثم اختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;الكاميرا\&quot;.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">لا يمكن مسح كود الـ QR بدون منح إذن الوصول إلى الكاميرا.</string>
 
     <!-- OutdatedBuildReminder -->
@@ -2595,7 +2595,7 @@
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">تمَّ رفض إذن بلوتوث</string>
     <!-- Message for dialog warning about lacking bluetooth permissions during a call and references the permission needed by name -->
-    <string name="WebRtcCallActivity__please_enable_the_nearby_devices_permission_to_use_bluetooth_during_a_call">يُرجى تمكين إذن \"الأجهزة القريبة\" لاستخدام البلوتوث أثناء المكالمة.</string>
+    <string name="WebRtcCallActivity__please_enable_the_nearby_devices_permission_to_use_bluetooth_during_a_call">يُرجى تمكين إذن \&quot;الأجهزة القريبة\&quot; لاستخدام البلوتوث أثناء المكالمة.</string>
     <!-- Positive action for bluetooth warning dialog to open settings -->
     <string name="WebRtcCallActivity__open_settings">فتح الإعدادات</string>
     <!-- Negative action for bluetooth warning dialog to dismiss dialog -->
@@ -2984,7 +2984,7 @@
     <string name="RegistrationActivity_you_will_receive_a_call_to_verify_this_number">ستأتيك مكالمة هاتفية للتحقُّق من هذا الرقم.</string>
     <string name="RegistrationActivity_edit_number">تعديل الرقم</string>
     <string name="RegistrationActivity_missing_google_play_services">خدمات Google Play غير موجودة</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">خدمات Google Play غير موجودة في هذا الجهاز. لا زال بإمكانك استخدام سيجنال، ولكن هذا الضبط قد يؤدي إلى ضعف في الموثوقية أو الأداء. إن لم تكن مستخدمًا مُتقدمًا، أو لم تكن مُشغِّلًا لـ Android ROM من جهة خارجية، أو تعتقد أن رؤيتك لهذه الرسالة ناجمة عن خطأ، يُرجى التواصل مع support@molly.im للمساعدة في اكتشاف الأخطاء وإصلاحها.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">خدمات Google Play غير موجودة في هذا الجهاز. لا زال بإمكانك استخدام سيجنال، ولكن هذا الضبط قد يؤدي إلى ضعف في الموثوقية أو الأداء. إن لم تكن مستخدمًا مُتقدمًا، أو لم تكن مُشغِّلًا لـ Android ROM من جهة خارجية، أو تعتقد أن رؤيتك لهذه الرسالة ناجمة عن خطأ، يُرجى التواصل مع support@Encrypt.im للمساعدة في اكتشاف الأخطاء وإصلاحها.</string>
     <string name="RegistrationActivity_i_understand">فهمت</string>
     <string name="RegistrationActivity_play_services_error">خطأ في خدمات Google Play</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">جارٍ تحديث خدمات Google Play أو أنها غير موجودة مؤقتًا. حاوِل مرّة أخرى.</string>
@@ -3253,7 +3253,7 @@
     <!-- Toast message shown if user exceeds the rate limit for reserving usernames -->
     <string name="UsernameEditFragment_rate_limit_exceeded_error">قُمتَ بمحاولاتٍ كثيرة. يُرجى المحاولة لاحقًا.</string>
     <string name="UsernameEditFragment_this_username_is_taken">اسم المُستخدم هذا غير متوفِّر.</string>
-    <string name="UsernameEditFragment_usernames_can_only_include">أسماء المُستخدمين يجب أن تحتوي فقط على الحروف الأبجدية، أو الأرقام 0-9، أو \"_\".</string>
+    <string name="UsernameEditFragment_usernames_can_only_include">أسماء المُستخدمين يجب أن تحتوي فقط على الحروف الأبجدية، أو الأرقام 0-9، أو \&quot;_\&quot;.</string>
     <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">اسم المُستخدم لا يمكن أن يبدأ برقم.</string>
     <string name="UsernameEditFragment_username_is_invalid">اسم المُستخدم غير صالح.</string>
     <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">اسم المُستخدم لا بد أن يكون بين %1$d و%2$d رمز.</string>
@@ -3303,7 +3303,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">رقم الأمان الخاص بنا في سيجنال:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">يبدو عدم وجود أي تطبيقات لديك للمشاركة من خلالها.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">لم يُعثَر في الحافظة على رقم أمان يمكن مقارنته.</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">يحتاج سيجنال إلى إذن الكاميرا من أجل مسح كود الـ QR، ولكن تمَّ إيقاف الإذن على نحو دائم. الرجاء زيارة إعدادات التطبيق واختيار \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">يحتاج سيجنال إلى إذن الكاميرا من أجل مسح كود الـ QR، ولكن تمَّ إيقاف الإذن على نحو دائم. الرجاء زيارة إعدادات التطبيق واختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;الكاميرا\&quot;.</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">لا يمكن مسح كود الـ QR بدون إذن استخدام الكاميرا.</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">يجب عليك أولًا تبادل الرسائل لإظهار رقم الأمان الخاص بـ %1$s.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -3402,7 +3402,7 @@
     <string name="MessageNotifier_signal_message">‫رسالة سيجنال</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">جهة اتصال</string>
-    <string name="MessageNotifier_reacted_s_to_s">تفاعل %1$s مع: \"%2$s\".</string>
+    <string name="MessageNotifier_reacted_s_to_s">تفاعل %1$s مع: \&quot;%2$s\&quot;.</string>
     <string name="MessageNotifier_reacted_s_to_your_video">تفاعل %1$s مع مقطع الفيديو الخاص بك.</string>
     <string name="MessageNotifier_reacted_s_to_your_image">تفاعل %1$s مع صورتك.</string>
     <string name="MessageNotifier_reacted_s_to_your_gif">تفاعل %1$s مع صورة GIF الخاصة بك.</string>
@@ -3422,7 +3422,7 @@
     <!-- Subtitle  for sheet explaining how to turn on app notifications -->
     <string name="TurnOnNotificationsBottomSheet__to_receive_notifications">لتلقي إشعارات بالرسائل الجديدة:</string>
     <!-- Sheet step 1  for sheet explaining how to turn on app notifications-->
-    <string name="TurnOnNotificationsBottomSheet__1_tap_settings_below">1. انقر على \"الإعدادات\" في الأسفل</string>
+    <string name="TurnOnNotificationsBottomSheet__1_tap_settings_below">1. انقر على \&quot;الإعدادات\&quot; في الأسفل</string>
     <!-- Sheet step 2 with placeholder which will be replaced with an image of a toggle  for sheet explaining how to turn on app notifications -->
     <string name="TurnOnNotificationsBottomSheet__2_s_turn_on_notifications">2. %1$s قُم بتفعيل الإشعارات</string>
     <!-- Label for button at the bottom of the sheet which opens system app notification settings for sheet explaining how to turn on app notifications -->
@@ -3506,7 +3506,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج سيجنال إلى إذن الوصول إلى مساحة التخزين من أجل استخدام الذاكرة الخارجية، ولكن تمَّ إيقاف الإذن بشكلٍ دائم. يُرجى زيارة إعدادات التطبيق، وتحديد \"الأذونات\"، ثم تفعيل \"مساحة التخزين\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج سيجنال إلى إذن الوصول إلى مساحة التخزين من أجل استخدام الذاكرة الخارجية، ولكن تمَّ إيقاف الإذن بشكلٍ دائم. يُرجى زيارة إعدادات التطبيق، وتحديد \&quot;الأذونات\&quot;، ثم تفعيل \&quot;مساحة التخزين\&quot;.</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات.</string>
@@ -3589,12 +3589,12 @@
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">للإجابة على المكالمة، اسمح لسيجنال بالوصول إلى الميكروفون على جهازك.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">للردّ على مكالمة الفيديو، اسمح لسيجنال بالوصول إلى الميكروفون و الكاميرا على هاتفك.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">يحتاج سيجنال إلى أذونات الوصول إلى الميكروفون والكاميرا من أجل استقبال أو إجراء المكالمات، ولكن الإذن تمَّ رفضه بشكلٍ دائم. يُرجى زيارة \"إعدادات التطبيق\"، واختيار \"الأذونات\"، ثم تفعيل \"الميكروفون\" و\"الكاميرا\".</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">يحتاج سيجنال إلى أذونات الوصول إلى الميكروفون والكاميرا من أجل استقبال أو إجراء المكالمات، ولكن الإذن تمَّ رفضه بشكلٍ دائم. يُرجى زيارة \&quot;إعدادات التطبيق\&quot;، واختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;الميكروفون\&quot; و\&quot;الكاميرا\&quot;.</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">تمَّت الإجابة عبر جهاز مُرتبِط.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">تمَّ الرفض عبر جهاز مُرتبِط.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">مشغول على جهاز مُرتبِط.</string>
     <!-- Tooltip message shown first time user is in a video call after switch camera button moved -->
-    <string name="WebRtcCallActivity__flip_camera_tooltip">نُقِلَ زر \"قلب الكاميرا\" إلى هنا. انقر على الفيديو لديك لتُجرِّبه.</string>
+    <string name="WebRtcCallActivity__flip_camera_tooltip">نُقِلَ زر \&quot;قلب الكاميرا\&quot; إلى هنا. انقر على الفيديو لديك لتُجرِّبه.</string>
 
     <string name="GroupCallSafetyNumberChangeNotification__someone_has_joined_this_call_with_a_safety_number_that_has_changed">انضم شخص لهذه المكالمة برقم أمان مختلف.</string>
 
@@ -3660,10 +3660,10 @@
     <string name="SingleContactSelectionActivity_contact_photo">صورة جهة الاتصال</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">يحتاج سيجنال إلى إذن الوصول إلى جهات الاتصال من أجل عرضها لك، ولكن تمَّ إيقاف الإذن بشكلٍ دائم. يُرجى زيارة إعدادات التطبيق، واختيار \"الأذونات\"، ثم تفعيل \"جهات الاتصال\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">يحتاج سيجنال إلى إذن الوصول إلى جهات الاتصال من أجل عرضها لك، ولكن تمَّ إيقاف الإذن بشكلٍ دائم. يُرجى زيارة إعدادات التطبيق، واختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;جهات الاتصال\&quot;.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">خطأ في استرجاع جهات الاتصال. يُرجى التحقُّق مِن اتصالك بالشبكة.</string>
     <string name="ContactSelectionListFragment_username_not_found">لم يتم العثور على اسم المُستخدم</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" ليس مُستخدم لِسيجنال. يُرجى التحقُّق من اسم المُستخدم والمحاولة مُجدَّدًا."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">&quot;\&quot;%1$s\&quot; ليس مُستخدم لِسيجنال. يُرجى التحقُّق من اسم المُستخدم والمحاولة مُجدَّدًا.&quot;</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">لستَ بحاجة إلى إضافة نفسك إلى المجموعة</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">وصلت المجموعة إلى الحد الأقصى.</string>
     <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">أقصى حد للأعضاء في مجموعات سيجنال هو %1$d عضوًا.</string>
@@ -3835,14 +3835,14 @@
     <string name="EnableCallNotificationSettingsDialog__enable_call_notifications">تفعيل إشعارات المكالمات</string>
     <string name="EnableCallNotificationSettingsDialog__enable_background_activity">تفعيل نشاط الخلفية</string>
     <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">يبدو أن كل شيء جيد الآن!</string>
-    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">لتلقي إشعارات المكالمات، يكفي النقر هنا وتشغيل \"إظهار الإشعارات\".</string>
+    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">لتلقي إشعارات المكالمات، يكفي النقر هنا وتشغيل \&quot;إظهار الإشعارات\&quot;.</string>
     <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_notifications">لتلقي إشعارات المكالمات، يُرجى النقر هنا ثم تفعيل الإشعارات وبعدها التأكُّد من أن الأصوات والنوافذ المنبثقة مُفعَّلة.</string>
     <!-- Message shown when Signal determines potential issues with getting call notifications and how to fix it -->
-    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">لتلقي إشعارات المكالمات، يُرجى النقر هنا ثم تفعيل نشاط الخلفية في إعدادات \"البطارية\". </string>
+    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">لتلقي إشعارات المكالمات، يُرجى النقر هنا ثم تفعيل نشاط الخلفية في إعدادات \&quot;البطارية\&quot;. </string>
     <string name="EnableCallNotificationSettingsDialog__settings">الإعدادات</string>
-    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">لتلقي إشعارات المكالمات، يكفي النقر على \"الإعدادات\" ثم تفعيل \"إظهار الإشعارات\".</string>
-    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_notifications">لتلقي إشعارات المكالمات، يُرجى النقر على \"الإعدادات\" ثم تفعيل الإشعارات وبعدها التأكُّد من أن الأصوات والنوافذ المنبثقة مُفعَّلة.</string>
-    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_enable_background_activity_in_battery_settings">لتلقي إشعارات المكالمات، يُرجى لمس \"الإعدادات\" ثم تفعيل أنشطة الخلفية في إعدادات \"البطارية\".</string>
+    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">لتلقي إشعارات المكالمات، يكفي النقر على \&quot;الإعدادات\&quot; ثم تفعيل \&quot;إظهار الإشعارات\&quot;.</string>
+    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_notifications">لتلقي إشعارات المكالمات، يُرجى النقر على \&quot;الإعدادات\&quot; ثم تفعيل الإشعارات وبعدها التأكُّد من أن الأصوات والنوافذ المنبثقة مُفعَّلة.</string>
+    <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_enable_background_activity_in_battery_settings">لتلقي إشعارات المكالمات، يُرجى لمس \&quot;الإعدادات\&quot; ثم تفعيل أنشطة الخلفية في إعدادات \&quot;البطارية\&quot;.</string>
 
     <!-- country_selection_fragment -->
     <string name="country_selection_fragment__loading_countries">جارٍ تحميل البلدان…</string>
@@ -3977,7 +3977,7 @@
 
     <!-- prompt_mms_activity -->
     <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">يتطلب سيجنال إعدادات الرسائل متعددة الوسائط (MMS) من أجل تسليم الملفّات متعدّدة الوسائط ورسائل المجموعات عبر شركة الاتصالات اللاسلكية المُستخدَمة. جهازك لا يوفِّر هذه المعلومات، وهذا ما يحدث أحيانًا في الهواتف المقفولة أو ذات الإعدادات المُقيَّدة.</string>
-    <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">من اجل إرسال وسائط مُتعدِّدة ورسائل إلى مجموعات، اضغط على \"تم\" وأكمِل الإعدادات المطلوبة. يمكن العثور على إعدادات رسائل الوسائط المُتعدِّدة الخاصة بمُشغِّل شبكة الجوال الخاص بك بالبحث عن \"اسم المُشغِّل APN\". سوف تحتاج إلى القيام بهذه الخطوة مرّة واحدة.</string>
+    <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">من اجل إرسال وسائط مُتعدِّدة ورسائل إلى مجموعات، اضغط على \&quot;تم\&quot; وأكمِل الإعدادات المطلوبة. يمكن العثور على إعدادات رسائل الوسائط المُتعدِّدة الخاصة بمُشغِّل شبكة الجوال الخاص بك بالبحث عن \&quot;اسم المُشغِّل APN\&quot;. سوف تحتاج إلى القيام بهذه الخطوة مرّة واحدة.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
     <string name="BadDecryptLearnMoreDialog_delivery_issue">مشكل في التوصيل</string>
@@ -4271,7 +4271,7 @@
     <!-- Cancelling the operation of changing the app icon. -->
     <string name="preferences__app_icon_dialog_cancel">إلغاء</string>
     <!-- Title for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_title">غيِّر أيقونة واسم التطبيق إلى \"%1$s\"</string>
+    <string name="preferences__app_icon_dialog_title">غيِّر أيقونة واسم التطبيق إلى \&quot;%1$s\&quot;</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_description">لتغيير أيقونة واسم التطبيق، يتعيّن إغلاق سيجنال. ستُظهر الإشعارات أيقونة واسم سيجنال الافتراضيين دائمًا.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
@@ -4297,7 +4297,7 @@
     <string name="preferences__free_private_messages_and_calls">رسائل ومكالمات مجانية وآمنة مع مستخدمي سيجنال</string>
     <string name="preferences__submit_debug_log">إرسال سجل الأخطاء</string>
     <string name="preferences__delete_account">حذف الحساب</string>
-    <string name="preferences__support_wifi_calling">وضع التوافق مع \"التواصل بالواي فاي\"</string>
+    <string name="preferences__support_wifi_calling">وضع التوافق مع \&quot;التواصل بالواي فاي\&quot;</string>
     <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">يمكنك تفعيل الخاصية إذا كان هاتفك يدعم تسليم رسائل SMS أو رسائل MMS عبر الواي فاي (قُم بالتفعيل فقط في حال تمكين التواصل بالواي فاي بهاتفك)</string>
     <string name="preferences__incognito_keyboard">لوحة مفاتيح في وضع متخفي</string>
     <string name="preferences__read_receipts">إيصالات تأكيد القراءة</string>
@@ -4383,16 +4383,16 @@
     <string name="preferences_communication__censorship_circumvention">تجاوز الرقابة</string>
     <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">في حالة التفعيل، سيُحاول تطبيق سيجنال تجاوز الرقابة. لا تُفعِّل هذه الميزة إلا إذا كنتَ في مكان يخضع فيه سيجنال للرقابة.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
-    <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">تمَّ تنشيط خاصية \"تجاوز الرقابة\" استنادًا إلى رقم الهاتف الخاص بحسابك.</string>
+    <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">تمَّ تنشيط خاصية \&quot;تجاوز الرقابة\&quot; استنادًا إلى رقم الهاتف الخاص بحسابك.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
-    <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">قُمتَ بتعطيل خاصية \"تجاوز الرقابة\" يدويًا.</string>
+    <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">قُمتَ بتعطيل خاصية \&quot;تجاوز الرقابة\&quot; يدويًا.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">تجاوز الرقابة ليس ضُروريًا ؛ أنت بالفعل مُتصل بخدمة سيجنال.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">لا يمكن تفعيل تجاوز الرقابة إلّا عند الاتصال بالإنترنت.</string>
     <string name="preferences_communication__category_sealed_sender">المُرسِل المُشفَّر</string>
     <string name="preferences_communication__sealed_sender_allow_from_anyone">السماح من أي شخص</string>
-    <string name="preferences_communication__sealed_sender_allow_from_anyone_description">تفعيل خاصية \"المُرسِل المُشفَّر\" للرسائل الواردة من غير جهات الاتصال والأشخاص الذين لم تشارِك معه ملفّك الشخصي.</string>
+    <string name="preferences_communication__sealed_sender_allow_from_anyone_description">تفعيل خاصية \&quot;المُرسِل المُشفَّر\&quot; للرسائل الواردة من غير جهات الاتصال والأشخاص الذين لم تشارِك معه ملفّك الشخصي.</string>
     <string name="preferences_proxy">البروكسي</string>
     <string name="preferences_use_proxy">استخدِم البروكسي</string>
     <string name="preferences_off">في حالة إيقاف</string>
@@ -4405,7 +4405,7 @@
     <string name="preferences_connected_to_proxy">متصل بالبروكسي</string>
     <string name="preferences_connection_failed">فشِل الاتصال</string>
     <string name="preferences_couldnt_connect_to_the_proxy">تعذَّر الاتصال بالبروكسي. تحقَّق من عنوان البروكسي وحاوِل مرّة أخرى.</string>
-    <string name="preferences_you_are_connected_to_the_proxy">أنت مُتَّصِل بالبروكسي. يمكنك إيقافه في أي وقت من قسم \"اﻹعدادات\".</string>
+    <string name="preferences_you_are_connected_to_the_proxy">أنت مُتَّصِل بالبروكسي. يمكنك إيقافه في أي وقت من قسم \&quot;اﻹعدادات\&quot;.</string>
     <!-- Title of alert dialog after a successful connection to the proxy -->
     <string name="preferences_success">نجاح</string>
     <string name="preferences_failed_to_connect">فشِل الاتصال</string>
@@ -4520,13 +4520,13 @@
 
     <!-- PermissionDeniedBottomSheet -->
     <!-- Sheet describing step 1 on how to give permissions by opening settings -->
-    <string name="PermissionDeniedBottomSheet__1_tap_settings_below">1. انقر على \"الإعدادات\" في الأسفل</string>
+    <string name="PermissionDeniedBottomSheet__1_tap_settings_below">1. انقر على \&quot;الإعدادات\&quot; في الأسفل</string>
     <!-- Sheet describing step 2 on how to give permissions by checking the permissions button in settings where %s will be replaced with an image of a checked button -->
     <string name="PermissionDeniedBottomSheet__2_allow_permission">2. %1$s امنح الإذن</string>
     <!-- Sheet describing step 2 on how to give permissions by tapping permissions in their settings -->
-    <string name="PermissionDeniedBottomSheet__2_tap_permissions">2. انقر على \"الأذونات\"</string>
+    <string name="PermissionDeniedBottomSheet__2_tap_permissions">2. انقر على \&quot;الأذونات\&quot;</string>
     <!-- Sheet describing step 3 on how to give permissions for photos and videos in settings where %s will be replaced with an image of a checked button -->
-    <string name="PermissionDeniedBottomSheet__3_allow_permission">3. %1$s امنح الصلاحية للوصول إلى \"الصور والفيديوهات\"</string>
+    <string name="PermissionDeniedBottomSheet__3_allow_permission">3. %1$s امنح الصلاحية للوصول إلى \&quot;الصور والفيديوهات\&quot;</string>
     <!-- Label for button at the bottom of the sheet which opens the system permission settings -->
     <string name="PermissionDeniedBottomSheet__settings">الإعدادات</string>
 
@@ -4575,7 +4575,7 @@
     <string name="PaymentsDetailsFragment__from">مِن</string>
     <string name="PaymentsDetailsFragment__information">ستجد تفاصيل المعاملة بما في ذلك مبلغ الدفع وتاريخ المعاملة متضمنة في دفتر حسابات MobileCoin.</string>
     <string name="PaymentsDetailsFragment__coin_cleanup_fee">رسوم تنظيف العملة</string>
-    <string name="PaymentsDetailsFragment__coin_cleanup_information">يتم فرض \"رسوم تنظيف العملة\" عندما يتعذَّر دمج العملات التي بحوزتك لإتمام معاملة. سيسمح لك التنظيف بمتابعة إرسال المدفوعات.</string>
+    <string name="PaymentsDetailsFragment__coin_cleanup_information">يتم فرض \&quot;رسوم تنظيف العملة\&quot; عندما يتعذَّر دمج العملات التي بحوزتك لإتمام معاملة. سيسمح لك التنظيف بمتابعة إرسال المدفوعات.</string>
     <string name="PaymentsDetailsFragment__no_details_available">لا تتوفَّر أي تفاصيل أخرى حول هذه المعاملة.</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
   <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
@@ -4594,7 +4594,7 @@
     <string name="PaymentsTransferFragment__check_the_wallet_address">يُرجى التحقُّق من عنوان المحفظة عند محاولة إرسال مبالغ إلى أحد ما، ثم حاوِل مرّة أخرى.</string>
     <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">لا يمكنك الإرسال إلى عنوان محفظتك بسيجنال. يُرجى إدخال عنوان المحفظة انطلاقًا من حسابك في منصة تداول تدعم ذلك.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">لقراءة كود الـ QR، يحتاج سيجنال إلى صلاحية الوصول إلى الكاميرا.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل قراءة كود الـ QR. انتقِل إلى الإعدادات في جهازك، ثم قُم باختيار \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">يحتاج سيجنال إلى إذن الوصول إلى الكاميرا من أجل قراءة كود الـ QR. انتقِل إلى الإعدادات في جهازك، ثم قُم باختيار \&quot;الأذونات\&quot;، ثم تفعيل \&quot;الكاميرا\&quot;.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">لقراءة كود الـ QR، يحتاج سيجنال إلى صلاحية الوصول إلى الكاميرا.</string>
     <string name="PaymentsTransferFragment__settings">الإعدادات</string>
 
@@ -4651,7 +4651,7 @@
     <!-- Button in a dialog that will take the user to the privacy settings -->
     <string name="ConfirmPaymentFragment__go_to_settings">انتقِل إلى الإعدادات</string>
     <string name="ConfirmPaymentFragment__this_person_has_not_activated_payments">لم يقم هذا الشخص بتفعيل المدفوعات.</string>
-    <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">تعذَّر طلب رسوم الشبكة. للاستمرار في هذا الدفع، يُرجى النقر على \"حسنًا\" ثم المحاولة مرّة أخرى.</string>
+    <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">تعذَّر طلب رسوم الشبكة. للاستمرار في هذا الدفع، يُرجى النقر على \&quot;حسنًا\&quot; ثم المحاولة مرّة أخرى.</string>
 
     <!-- BiometricDeviceAuthentication -->
     <!-- Biometric/Device authentication prompt title -->
@@ -5099,11 +5099,11 @@
     <!-- Subtext below radio buttons when who can find me by number is set to nobody -->
     <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">لن يتمكّن أي أحد من رؤيتك على سيجنال إلاّ إذا راسلته أو كانت لديك دردشة موجودة معه.</string>
     <!-- Snackbar text when pressing invalid radio item -->
-    <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">"لتغيير هذا الإعداد، اختر \"لا أحد\" عند تعيين \"من يُمكنه رؤية رقمي\"."</string>
+    <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">&quot;لتغيير هذا الإعداد، اختر \&quot;لا أحد\&quot; عند تعيين \&quot;من يُمكنه رؤية رقمي\&quot;.&quot;</string>
     <!-- Dialog title shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
     <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_title">هل أنت متأكد؟</string>
     <!-- Dialog warning message shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
-    <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">يمكن أن يُصعِّب اختيار \"لا أحد\" في إعداد \"من يمكنه إيجادي باستخدام رقمي\" على الناس إيجادك على سيجنال.</string>
+    <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">يمكن أن يُصعِّب اختيار \&quot;لا أحد\&quot; في إعداد \&quot;من يمكنه إيجادي باستخدام رقمي\&quot; على الناس إيجادك على سيجنال.</string>
     <!-- Dialog button text for canceling change action -->
     <string name="PhoneNumberPrivacySettingsFragment__cancel">إلغاء</string>
     <string name="PhoneNumberPrivacy_everyone">الجميع</string>
@@ -5213,9 +5213,9 @@
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">انقر على صورة حسابك الشخصي في أعلى الجزء الأيسر لفتح الإعدادات.</string>
     <string name="NewDeviceTransferInstructions__second_bullet">2.</string>
-    <string name="NewDeviceTransferInstructions__tap_on_account">"انقر على \"الحساب\""</string>
+    <string name="NewDeviceTransferInstructions__tap_on_account">&quot;انقر على \&quot;الحساب\&quot;&quot;</string>
     <string name="NewDeviceTransferInstructions__third_bullet">3.</string>
-    <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">"انقر على \"نقل الحساب\"، ثم \"متابعة\" على كلا الجهازين."</string>
+    <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">&quot;انقر على \&quot;نقل الحساب\&quot;، ثم \&quot;متابعة\&quot; على كلا الجهازين.&quot;</string>
 
     <!-- NewDeviceTransferSetupFragment -->
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">جارٍ إعداد الاتصال بجهاز أندرويد الجديد لديك…</string>
@@ -5247,7 +5247,7 @@
     <string name="DeviceTransferSetup__retry">إعادة المُحاولة</string>
     <string name="DeviceTransferSetup__submit_debug_logs">إرسال سجلات الأخطاء</string>
     <string name="DeviceTransferSetup__verify_code">التحقُّق من الكود</string>
-    <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">يُرجى التحقُّق من أن الكود في الأسفل هو نفسه الذي يظهر في كلا جهازيك. بعدها انقر على \"متابعة\".</string>
+    <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">يُرجى التحقُّق من أن الكود في الأسفل هو نفسه الذي يظهر في كلا جهازيك. بعدها انقر على \&quot;متابعة\&quot;.</string>
     <string name="DeviceTransferSetup__the_numbers_do_not_match">الأعداد غير متطابقة</string>
     <string name="DeviceTransferSetup__continue">متابعة</string>
     <string name="DeviceTransferSetup__if_the_numbers_on_your_devices_do_not_match_its_possible_you_connected_to_the_wrong_device">إن لم يظهر لك نفس العددين في كلا جهازيك، فمن المحتمل أنك اتصلت بالجهاز الخطأ. لإصلاح ذلك، يُرجى إيقاف النقل والمحاولة مرّة أخرى، مع إبقاء جهازيك قريبين من بعضهما.</string>
@@ -5266,8 +5266,8 @@
     <!-- Button text when a device transfer could not occur and to try again -->
     <string name="DeviceTransferSetup__try_again">حاوِل مُجدَّدًا</string>
     <string name="DeviceTransferSetup__waiting_for_other_device">في انتظار الجهاز الآخر</string>
-    <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">انقر على \"متابعة\" في جهازك الآخر لبدء النقل.</string>
-    <string name="DeviceTransferSetup__tap_continue_on_your_other_device">انقر على \"متابعة\" في جهازك الآخر…</string>
+    <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">انقر على \&quot;متابعة\&quot; في جهازك الآخر لبدء النقل.</string>
+    <string name="DeviceTransferSetup__tap_continue_on_your_other_device">انقر على \&quot;متابعة\&quot; في جهازك الآخر…</string>
 
     <!-- NewDeviceTransferFragment -->
     <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">لم يتمكن من النقل من إصدار أحدث من سيجنال</string>
@@ -5292,9 +5292,9 @@
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
     <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">قُم بتنزيل سيجنال في جهاز أندرويد الجديد الخاص بك</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
-    <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"انقر على \"نقل أو استعادة الحساب\""</string>
+    <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">&quot;انقر على \&quot;نقل أو استعادة الحساب\&quot;&quot;</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
-    <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">"قُم بتحديد \"نقل من جهاز أندرويد\" عند ظهورها، ثم انقر على \"متابعة\". يُرجى إبقاء الجهازين قريبين من بعضهما."</string>
+    <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">&quot;قُم بتحديد \&quot;نقل من جهاز أندرويد\&quot; عند ظهورها، ثم انقر على \&quot;متابعة\&quot;. يُرجى إبقاء الجهازين قريبين من بعضهما.&quot;</string>
     <string name="OldDeviceTransferInstructions__continue">متابعة</string>
 
     <!-- OldDeviceTransferComplete -->
@@ -5339,7 +5339,7 @@
     <string name="RecipientBottomSheet_remove_from_group">إزالة من المجموعة</string>
 
     <string name="RecipientBottomSheet_remove_s_as_group_admin">هل ترغب بإزالة ميزة الإشراف على المجموعة عن %1$s؟</string>
-    <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">"سيتمكن العضو %1$s من تعديل هذه المجموعة وأيضًا تعديل صلاحيات الأعضاء فيها."</string>
+    <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">&quot;سيتمكن العضو %1$s من تعديل هذه المجموعة وأيضًا تعديل صلاحيات الأعضاء فيها.&quot;</string>
 
     <string name="RecipientBottomSheet_remove_s_from_the_group">هل ترغبُ بإزالة %1$s من المجموعة؟</string>
     <!-- Dialog message shown when removing someone from a group with group link being active to indicate they will not be able to rejoin -->
@@ -5381,9 +5381,9 @@
 
     <!-- StorageUtil -->
     <string name="StorageUtil__s_s">%1$s/%2$s</string>
-    <string name="BlockedUsersActivity__s_has_been_blocked">تمَّ حظر \"%1$s\".</string>
-    <string name="BlockedUsersActivity__failed_to_block_s">فشل حظر \"%1$s\"</string>
-    <string name="BlockedUsersActivity__s_has_been_unblocked">تمَّ إلغاء الحظر عن \"%1$s\".</string>
+    <string name="BlockedUsersActivity__s_has_been_blocked">تمَّ حظر \&quot;%1$s\&quot;.</string>
+    <string name="BlockedUsersActivity__failed_to_block_s">فشل حظر \&quot;%1$s\&quot;</string>
+    <string name="BlockedUsersActivity__s_has_been_unblocked">تمَّ إلغاء الحظر عن \&quot;%1$s\&quot;.</string>
 
     <!-- ReviewCardDialogFragment -->
     <!-- Title of a screen where the user will be prompted to review group members with the same name -->
@@ -6014,7 +6014,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">ميزة اختفاء الرسائل</string>
     <string name="PrivacySettingsFragment__app_security">أمان التطبيق</string>
     <!-- This refers to the multi-tasking overview (recent apps) from the Android operating system.-->
-    <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">منع لقطات الشاشة داخل التطبيق وفي قائمة \"الأحدث\"</string>
+    <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">منع لقطات الشاشة داخل التطبيق وفي قائمة \&quot;الأحدث\&quot;</string>
     <string name="PrivacySettingsFragment__signal_message_and_calls">محادثات ومكالمات سيجنال، دعم المكالمات دومًا، ودعم المُرسِل المُشفَّر</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">المؤقِّت الافتراضي للدردشات الجديدة</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">تعيين مؤقِّت افتراضي لاختفاء الرسائل لجميع الدردشات الجديدة التي قُمتَ ببدئها.</string>
@@ -6375,7 +6375,7 @@
 
     <!-- Media V2 -->
     <!-- Dialog message when sending a story via an add to group story button -->
-    <string name="MediaReviewFragment__add_to_the_group_story">إضافة إلى قِصة المجموعة \"%1$s\"</string>
+    <string name="MediaReviewFragment__add_to_the_group_story">إضافة إلى قِصة المجموعة \&quot;%1$s\&quot;</string>
     <!-- Positive dialog action when sending a story via an add to group story button -->
     <string name="MediaReviewFragment__add_to_story">إضافة إلى القصة</string>
     <string name="MediaReviewFragment__add_a_message">إضافة رسالة</string>
@@ -6461,14 +6461,14 @@
     <!-- The title of a dialog notifying that a user was found matching a scanned QR code. The placeholder is a username. Usernames are always latin characters. -->
     <string name="MediaCaptureFragment_username_dialog_title">تمَّ العثور على %1$s</string>
     <!-- The body of a dialog notifying that a user was found matching a scanned QR code, prompting the user to start a chat with them. The placeholder is a username. Usernames are always latin characters. -->
-    <string name="MediaCaptureFragment_username_dialog_body">ابدأ دردشة مع \"%1$s\"</string>
+    <string name="MediaCaptureFragment_username_dialog_body">ابدأ دردشة مع \&quot;%1$s\&quot;</string>
     <!-- The label of a dialog asking the user if they would like to start a chat with a specific user. -->
     <string name="MediaCaptureFragment_username_dialog_go_to_chat_button">انتقِل إلى الدردشة</string>
 
     <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
     <string name="MediaCaptureFragment_device_link_dialog_title">هل ترغبُ بربط الجهاز؟</string>
     <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
-    <string name="MediaCaptureFragment_it_looks_like_youre_trying">يَبدو أنك تُحاول ربط جهاز يستخدم سيجنال. انقر على \"متابعة\" ثم انقر على \"ربط جهاز جديد\" وامسح كود الـ QR من جديد.</string>
+    <string name="MediaCaptureFragment_it_looks_like_youre_trying">يَبدو أنك تُحاول ربط جهاز يستخدم سيجنال. انقر على \&quot;متابعة\&quot; ثم انقر على \&quot;ربط جهاز جديد\&quot; وامسح كود الـ QR من جديد.</string>
     <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
     <string name="MediaCaptureFragment_device_link_dialog_continue">متابعة</string>
 
@@ -6818,7 +6818,7 @@
     <!-- Button use to permanently delete a notification profile -->
     <string name="NotificationProfileDetails__delete_profile">حذف ملف الإشعارات</string>
     <!-- Snakbar message shown when removing a recipient from a profile -->
-    <string name="NotificationProfileDetails__s_removed">حُذِف \"%1$s\".</string>
+    <string name="NotificationProfileDetails__s_removed">حُذِف \&quot;%1$s\&quot;.</string>
     <!-- Snackbar button text that will undo the recipient remove -->
     <string name="NotificationProfileDetails__undo">تراجع</string>
     <!-- Dialog message shown to confirm deleting a profile -->
@@ -7162,7 +7162,7 @@
     <!-- Signal connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">وجودهم في جهات اتصال هاتفك</string>
     <!-- Note at the bottom of the Signal connections sheet -->
-    <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"يُمكن لِجهات اتصالك رؤية اسمك وصورتك، كما يمكنهم الاطِّلاع على منشوراتك في \"قصتي\" إلّا إذا أخفيتها عنهم."</string>
+    <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">&quot;يُمكن لِجهات اتصالك رؤية اسمك وصورتك، كما يمكنهم الاطِّلاع على منشوراتك في \&quot;قصتي\&quot; إلّا إذا أخفيتها عنهم.&quot;</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">إضافة مُشاهِد</string>
     <!-- Clickable option to delete a custom story -->
@@ -7209,13 +7209,13 @@
     <!-- Dialog title for removing a group story -->
     <string name="StoryDialogs__remove_group_story">هل ترغبُ بإزالة قصة المجموعة؟</string>
     <!-- Dialog message for removing a group story -->
-    <string name="StoryDialogs__s_will_be_removed">سيتمُّ حذف \"%1$s\".</string>
+    <string name="StoryDialogs__s_will_be_removed">سيتمُّ حذف \&quot;%1$s\&quot;.</string>
     <!-- Dialog positive action for removing a group story -->
     <string name="StoryDialogs__remove">إزالة</string>
     <!-- Dialog title for deleting a custom story -->
     <string name="StoryDialogs__delete_custom_story">هل ترغبُ بحذف القصة المُخصَّصة؟</string>
     <!-- Dialog message for deleting a custom story -->
-    <string name="StoryDialogs__s_and_updates_shared">سيتمُّ حذف \"%1$s\" والتحديثات التي تمَّت مشاركتها في هذه القصة.</string>
+    <string name="StoryDialogs__s_and_updates_shared">سيتمُّ حذف \&quot;%1$s\&quot; والتحديثات التي تمَّت مشاركتها في هذه القصة.</string>
     <!-- Dialog positive action for deleting a custom story -->
     <string name="StoryDialogs__delete">حذف</string>
     <!-- Dialog title for first time sending something to a beta story -->
@@ -7439,7 +7439,7 @@
     <!-- Dialog title for deleting a custom story -->
     <string name="ContactSearchMediator__delete_story">هل ترغبُ بحذف القصة؟</string>
     <!-- Dialog message for deleting a custom story -->
-    <string name="ContactSearchMediator__delete_the_custom">هل ترغبُ بحذف القصة المُخصَّصة \"%1$s\"؟</string>
+    <string name="ContactSearchMediator__delete_the_custom">هل ترغبُ بحذف القصة المُخصَّصة \&quot;%1$s\&quot;؟</string>
     <!-- Dialog action item for deleting a custom story -->
     <string name="ContactSearchMediator__delete">حذف</string>
     <!-- Donation for a friend expiry days remaining -->
@@ -7589,7 +7589,7 @@
     <!-- Section header for who can view a group story -->
     <string name="GroupStorySettingsFragment__who_can_view_this_story">من يُمكنه مشاهدة هذه القصة</string>
     <!-- Explanation of who can view a group story -->
-    <string name="GroupStorySettingsFragment__members_of_the_group_s">"يُمكن لعضو في هذه المجموعة %1$s مشاهدة هذه القصة و الرّد عليها. يمكنك تحديث العضوية لهذه الدردشة في المجموعة."</string>
+    <string name="GroupStorySettingsFragment__members_of_the_group_s">&quot;يُمكن لعضو في هذه المجموعة %1$s مشاهدة هذه القصة و الرّد عليها. يمكنك تحديث العضوية لهذه الدردشة في المجموعة.&quot;</string>
     <!-- Preference label for removing this group story -->
     <string name="GroupStorySettingsFragment__remove_group_story">حذف قصة المجموعة</string>
 
@@ -7616,9 +7616,9 @@
     <!-- Re-enable backup permission bottom sheet title -->
     <string name="BackupSchedulePermissionMegaphone__to_reenable_backups">لإعادة تفعيل النسخ الاحتياطية:</string>
     <!-- Re-enable backups permission bottom sheet instruction 1 text -->
-    <string name="BackupSchedulePermissionMegaphone__tap_the_go_to_settings_button_below">انقر على زر \"انتقِل إلى الإعدادات\" أدناه</string>
+    <string name="BackupSchedulePermissionMegaphone__tap_the_go_to_settings_button_below">انقر على زر \&quot;انتقِل إلى الإعدادات\&quot; أدناه</string>
     <!-- Re-enable backups permission bottom sheet instruction 2 text -->
-    <string name="BackupSchedulePermissionMegaphone__turn_on_allow_settings_alarms_and_reminders">شغِّل \"السماح بإعداد التنبيهات والتذكيرات\".</string>
+    <string name="BackupSchedulePermissionMegaphone__turn_on_allow_settings_alarms_and_reminders">شغِّل \&quot;السماح بإعداد التنبيهات والتذكيرات\&quot;.</string>
     <!-- Re-enable backups permission bottom sheet call to action button to open settings -->
     <string name="BackupSchedulePermissionMegaphone__go_to_settings">انتقِل إلى الإعدادات</string>
 
@@ -7770,7 +7770,7 @@
     <!-- Dialog title shown when using iDEAL payment for setting up a monthly donation -->
     <string name="IdealTransferDetailsFragment__confirm_your_donation_with_s">تأكيد التبرُّع الخاص بك عبر %1$s</string>
     <!-- Dialog warning shown when using iDEAL payment for setting up a monthly donation. Placeholder is donation amount.Z -->
-    <string name="IdealTransferDetailsFragment__to_setup_your_recurring_donation">لإعداد تبرُّعك المُتكرِّر، انقر على \"متابعة\" لتأكيد خصم €0,01 مع المصرف الذي تتعامل معه. سَيتم استرداد هذه القيمة تلقائيًا وسَيسمح هذا بخصم تبرُّعك بقيمة %1$s/شهريًا من حسابك.</string>
+    <string name="IdealTransferDetailsFragment__to_setup_your_recurring_donation">لإعداد تبرُّعك المُتكرِّر، انقر على \&quot;متابعة\&quot; لتأكيد خصم €0,01 مع المصرف الذي تتعامل معه. سَيتم استرداد هذه القيمة تلقائيًا وسَيسمح هذا بخصم تبرُّعك بقيمة %1$s/شهريًا من حسابك.</string>
     <!-- Dialog button shown when using iDEAL payment for setting up a monthly donation to continue with the donation -->
     <string name="IdealTransferDetailsFragment__continue">متابعة</string>
 
@@ -8324,7 +8324,7 @@
     <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
     <string name="FindByActivity__s_is_not_a_valid_phone_number">%1$s ليس رقم هاتف صحيح. أعِد المحاولة مرّة أخرى باستخدام رقم هاتف صحيح.</string>
     <!-- Dialog body for not found username -->
-    <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" ليس مُستخدم لسيجنال. يُرجى التحقُّق من اسم المُستخدم والمحاولة مرّة أخرى.</string>
+    <string name="FindByActivity__s_is_not_a_signal_user">\&quot;%1$s\&quot; ليس مُستخدم لسيجنال. يُرجى التحقُّق من اسم المُستخدم والمحاولة مرّة أخرى.</string>
     <!-- Dialog body for not found phone number -->
     <string name="FindByActivity__s_is_not_a_signal_user_would">لم يعُد %1$s من مُستخدمي سيجنال. هل تريد دعوة هذا الرقم؟</string>
     <!-- Dialog action to invite the phone number to Signal -->
@@ -8338,12 +8338,12 @@
     <string name="LinkedDeviceInactiveMegaphone_title">جهاز غير مرتبط غير نشِط</string>
     <!-- Body for an alert letting someone know that one of their linked devices is inactive. The string placeholder is the name of the device, and the number placeholder is the number of days before device is unlinked. -->
     <plurals name="LinkedDeviceInactiveMegaphone_body">
-        <item quantity="zero">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d أيام.</item>
-        <item quantity="one">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يوم.</item>
-        <item quantity="two">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومين.</item>
-        <item quantity="few">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d أيامٍ.</item>
-        <item quantity="many">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومًا.</item>
-        <item quantity="other">لتُبقي \"%1$s\" مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومٍ.</item>
+        <item quantity="zero">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d أيام.</item>
+        <item quantity="one">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يوم.</item>
+        <item quantity="two">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومين.</item>
+        <item quantity="few">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d أيامٍ.</item>
+        <item quantity="many">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومًا.</item>
+        <item quantity="other">لتُبقي \&quot;%1$s\&quot; مرتبطًا، افتح تطبيق سيجنال على ذلك الجهاز في غضون %2$d يومٍ.</item>
     </plurals>
     <!-- Button label for an alert letting someone know that one of their linked devices is inactive. When clicked, the user will opt out of all future alerts. -->
     <string name="LinkedDeviceInactiveMegaphone_dont_remind_button_label">لا تُذكّرني</string>
@@ -8411,17 +8411,17 @@
     <!-- Sheet title when user payment failed to process -->
     <string name="BackupAlertBottomSheet__your_backups_subscription_failed_to_renew">تعذَّر تجديد اشتراك النسخ الاحتياطي الخاص بحسابك.</string>
     <!-- Sheet body when user payment failed to process -->
-    <string name="BackupAlertBottomSheet__check_to_make_sure_your_payment_method">تأكَّد من أن طريقة الدفع الخاصة بك مُحدَّثة. انقر على \"إدارة الاشتراك\"، ثم انقر على \"تحديث\" ضمن تبويب \"طرق الدفع\".</string>
+    <string name="BackupAlertBottomSheet__check_to_make_sure_your_payment_method">تأكَّد من أن طريقة الدفع الخاصة بك مُحدَّثة. انقر على \&quot;إدارة الاشتراك\&quot;، ثم انقر على \&quot;تحديث\&quot; ضمن تبويب \&quot;طرق الدفع\&quot;.</string>
     <!-- Sheet title for generic backup error -->
     <string name="BackupAlertBottomSheet__couldnt_complete_backup">تعذَّر إكمال النسخ الاحتياطي</string>
     <!-- Sheet body for generic backup error. Placeholder is days since last backup. -->
     <plurals name="BackupAlertBottomSheet__your_device_hasnt">
-        <item quantity="zero">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d أيام. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\".</item>
-        <item quantity="one">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يوم. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\". </item>
-        <item quantity="two">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يوميْن. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\".</item>
-        <item quantity="few">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d أيام. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\".</item>
-        <item quantity="many">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يومًا. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\".</item>
-        <item quantity="other">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يومٍ. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \"إنشاء نسخة احتياطية الآن\".</item>
+        <item quantity="zero">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d أيام. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;.</item>
+        <item quantity="one">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يوم. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;. </item>
+        <item quantity="two">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يوميْن. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;.</item>
+        <item quantity="few">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d أيام. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;.</item>
+        <item quantity="many">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يومًا. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;.</item>
+        <item quantity="other">لم يُكمِل جهازك النسخ الاحتياطي لِمدة %1$d يومٍ. تأكَّد من أن جهازك مُتصل بشبكة الواي فاي ثم انقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;.</item>
     </plurals>
     <!-- Clickable text to learn more about the content of this bottom sheet -->
     <string name="BackupAlertBottomSheet__learn_more">اعرف المزيد</string>
@@ -8509,7 +8509,7 @@
     <!-- Text row label to skip download -->
     <string name="BackupStatusRow__skip_download">تخطي التنزيل</string>
     <!-- Text displayed when a backup could not be completed -->
-    <string name="BackupStatusRow__your_last_backup">تعذَّر إتمام عملية النسخ الاحتياطي الأخيرة. تأكَّد من أن هاتفك مُتصل بشبكة الواي فاي وانقر على \"إنشاء نسخة احتياطية الآن\" للمحاولة من جديد.</string>
+    <string name="BackupStatusRow__your_last_backup">تعذَّر إتمام عملية النسخ الاحتياطي الأخيرة. تأكَّد من أن هاتفك مُتصل بشبكة الواي فاي وانقر على \&quot;إنشاء نسخة احتياطية الآن\&quot; للمحاولة من جديد.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
     <string name="BackupStatusRow__your_last_backup_latest_version">تعذَّر إتمام عملية النسخ الاحتياطي الأخيرة. تأكَّد من أنك تستخدم آخر إصدار لسيجنال وحاوِل من جديد.</string>
     <!-- Text displayed in a row to learn more about why a backup failed -->
@@ -8697,7 +8697,7 @@
     <!-- Text on dialog when user backup is deleted -->
     <string name="RemoteBackupsSettingsFragment__backup_deleted">تمَّ حذف النسخ الاحتياطية</string>
     <!-- Subtitle for frequency option MANUAL for backup frequency -->
-    <string name="RemoteBackupsSettingsFragment__by_tapping_back_up_now">"بالنقر على \"إنشاء نسخة احتياطية الآن\""</string>
+    <string name="RemoteBackupsSettingsFragment__by_tapping_back_up_now">&quot;بالنقر على \&quot;إنشاء نسخة احتياطية الآن\&quot;&quot;</string>
     <!-- Title for frequency option DAILY for backup frequency -->
     <string name="RemoteBackupsSettingsFragment__daily">يوميًا</string>
     <!-- Title for frequency option DAILY for backup frequency -->
@@ -8964,7 +8964,7 @@
     <!-- Backup key not known bottom sheet info paragraph 1 -->
     <string name="EnterBackupKey_no_key_paragraph_1">لا يُمكن استعادة النُسخ الاحتياطية دون كود الاستعادة المُكوَّن من 64 رمزًا. إذا فقدت مفتاح النسخة الاحتياطية الخاص بك، فلا يُمكن لسيجنال مُساعدتك في استعادة نسختك الاحتياطية.</string>
     <!-- Backup key not known bottom sheet info paragraph 2 -->
-    <string name="EnterBackupKey_no_key_paragraph_2">إذا كان لديك جهازك القديم، يُمكنك عرض مفتاح النسخة الاحتياطية الخاص بك في \"الإعدادات\" &gt; \"النسخ الاحتياطية\". ثم انقر على عرض مفتاح النسخة الاحتياطية.</string>
+    <string name="EnterBackupKey_no_key_paragraph_2">إذا كان لديك جهازك القديم، يُمكنك عرض مفتاح النسخة الاحتياطية الخاص بك في \&quot;الإعدادات\&quot; &gt; \&quot;النسخ الاحتياطية\&quot;. ثم انقر على عرض مفتاح النسخة الاحتياطية.</string>
     <!-- Backup key not known bottom sheet button to learn more about it -->
     <string name="EnterBackupKey_learn_more">اعرف المزيد</string>
     <!-- Backup key not known bottom sheet button to skip backup key entry and resume normal reregistration -->
@@ -9061,7 +9061,7 @@
     <!-- No Backup to Restore step 1 to enable backups on old device -->
     <string name="NoBackupToRestore_step1">افتح تطبيق سيجنال على جهازك القديم</string>
     <!-- No Backup to Restore step 2 to enable backups on old device -->
-    <string name="NoBackupToRestore_step2">انقر على \"الإعدادات\" &gt; \" النسخ الاحتياطية\"</string>
+    <string name="NoBackupToRestore_step2">انقر على \&quot;الإعدادات\&quot; &gt; \&quot; النسخ الاحتياطية\&quot;</string>
     <!-- No Backup to Restore step 3 to enable backups on old device -->
     <string name="NoBackupToRestore_step3">فعِّل النسخ الاحتياطية وانتظر حتى تكتمل عملية النسخ الاحتياطي</string>
     <!-- No backup to Restore tonal cta to skip restore -->

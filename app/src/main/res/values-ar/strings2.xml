@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8"?><resources>
     <string name="preferences__enable_debug_log">تفعيل سجل التصحيح</string>
     <string name="ChangePassphraseDialogFragment_generating_keys_this_may_take_a_while">توليد المفاتيح. هذا قد يستغرق بعض الوقت…</string>
     <string name="ChangePassphraseDialogFragment_please_choose_a_passphrase_that_will_be_used_to_locally_encrypt_your_data_this_should_be_a_strong_passphrase">الرجاء اختيار عبارة مرور سيتم استخدامها لتعمية بياناتك محليًا.\n\nيجب أن تكون هذه عبارة المرور قوية.</string>
@@ -72,7 +71,7 @@
     <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">عذرًا، تتطلب هذه الميزة إرسال إشعارات Push عبر FCM أو UnifiedPush، وهي غير متوفرة حاليًا.</string>
     <string name="arrays__weekly">أسبوعيًا</string>
     <string name="MessageRetrievalService_ready_to_receive_messages">جاهز لتلقي الرسائل</string>
-    <string name="HelpSettingsFragment__molly_im_website">موقع Molly.im</string>
+    <string name="HelpSettingsFragment__molly_im_website">موقع Encrypt.im</string>
     <string name="DeviceAddFragment__link_without_scanning">ربط دون المسح</string>
     <string name="BiometricDialogFragment__biometric_verification">التحقق البيومتري</string>
     <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">يُرجى التأكد من أنك أنت من تستخدم مولي حقًا</string>
@@ -81,15 +80,15 @@
     <string name="Megaphones_turn_on_stories">شغّل القصص</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">تحقق من وجود تحديثات تلقائيا؟</string>
     <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">تستطيع مولي التحقق بشكل دوري من وجود إصدارات جديدة وتطلب منك تثبيتها.</string>
-    <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s غير مسجل في Signal</string>
+    <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s غير مسجل في Encrypt</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">الإصدارات التجريبية مخصّصة لأغراض الاختبار وقد تحتوي على أخطاء</string>
     <string name="BackupsPreferenceFragment__schedule">جدولة</string>
     <string name="BackupsPreferenceFragment__number_of_backups_to_retain">عدد النسخ الاحتياطية المطلوب الاحتفاظ بها</string>
     <string name="arrays__daily">يوميًا</string>
     <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">إذا لم يتمكن جهازك من مسح رمز QR، فيمكنك إدخال الرابط المُعمّى في رمز QR يدويًا.</string>
     <string name="HelpSettingsFragment_disable_and_delete_debug_log">حذف وتعطيل سجل التصحيح؟</string>
-    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">تحتاج مولي إلى أذونات جهات الاتصال والوسائط لمساعدتك في العثور على أصدقائك وإرسال الرسائل. يتم تحميل جهات الاتصال الخاصة بك باستخدام اكتشاف جهات الاتصال الخاصة في Signal، مما يعني أنها مُعمَّاة بين الطرفين ولا تكون مرئية مطلقًا لخدمة Signal.</string>
-    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_in_order_to_connect_with_friends">تحتاج مولي إلى إذن جهات الاتصال لمساعدتك في العثور على أصدقائك. يتم تحميل جهات الاتصال الخاصة بك باستخدام اكتشاف جهات الاتصال الخاصة في Signal، مما يعني أنها مُعمَّاة بين الطرفين ولا تكون مرئية مطلقًا لخدمة Signal.</string>
+    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">تحتاج مولي إلى أذونات جهات الاتصال والوسائط لمساعدتك في العثور على أصدقائك وإرسال الرسائل. يتم تحميل جهات الاتصال الخاصة بك باستخدام اكتشاف جهات الاتصال الخاصة في Encrypt، مما يعني أنها مُعمَّاة بين الطرفين ولا تكون مرئية مطلقًا لخدمة Encrypt.</string>
+    <string name="RegistrationActivity_molly_needs_access_to_your_contacts_in_order_to_connect_with_friends">تحتاج مولي إلى إذن جهات الاتصال لمساعدتك في العثور على أصدقائك. يتم تحميل جهات الاتصال الخاصة بك باستخدام اكتشاف جهات الاتصال الخاصة في Encrypt، مما يعني أنها مُعمَّاة بين الطرفين ولا تكون مرئية مطلقًا لخدمة Encrypt.</string>
     <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">لا تتوفر ميزات القياسات الحيوية على هذا الجهاز</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">تحقق من وجود تحديثات</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">سيتم إعلامك عند توفر التحديثات</string>
@@ -115,7 +114,7 @@
     <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">للحصول على التحديثات، يُرجى مراجعة متجر تطبيقاتك. لا يتضمن هذا الإصدار تحديث مدمج داخل التطبيق.</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">آخر فحص: %s</string>
     <string name="prompt_passphrase_activity__molly_is_locked">مولي مُقفَل</string>
-    <string name="LinkDeviceFragment__use_molly_on_another_devices">استخدم مولي (Molly) على جهاز آخر. ستتم مزامنة رسائلك مع الأجهزة المرتبطة.</string>
+    <string name="LinkDeviceFragment__use_molly_on_another_devices">استخدم مولي (Encrypt) على جهاز آخر. ستتم مزامنة رسائلك مع الأجهزة المرتبطة.</string>
     <string name="LinkDeviceFragment__molly_on_another_device">مولي على جهاز آخر</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">الرسائل خاصة على جميع الأجهزة المرتبطة.</string>
     <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">يدعم تطبيق مولي الارتباط بأجهزة أندرويد الأخرى التي تشغّل مولي، بالإضافة إلى أجهزة سطح المكتب وأجهزة iPad التي تشغّل سيجنال.</string>
@@ -125,7 +124,7 @@
     <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">قم بالتبديل إلى خدمة push بديلة في الإعدادات &gt; الإشعارات أو قم بإصلاح المشكلة باستخدام خدمات Play.</string>
     <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">حدث خطأ أثناء التسجيل للحصول على إشعارات push. %s</string>
     <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">يُرجى التحقق من تثبيت خدمات Google Play وتمكينها، أو التبديل إلى خدمة push بديلة.</string>
-    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">اسمح لتطبيق Molly بإرسال الإشعارات في الوقت المناسب، حتى عندما يكون جهازك في وضع الاستعداد.</string>
+    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">اسمح لتطبيق Encrypt بإرسال الإشعارات في الوقت المناسب، حتى عندما يكون جهازك في وضع الاستعداد.</string>
     <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">غير قادر على التسجيل في خدمات Play</string>
     <string name="NotificationsSettingsFragment__push_notifications">إشعارات push</string>
     <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">حدد الخدمة المفضلة لديك لتلقي إشعارات push. إذا لم تكن الخدمة متاحة، فسيستخدم التطبيق تلقائيًا WebSocket لضمان تسليم الإشعارات.</string>
