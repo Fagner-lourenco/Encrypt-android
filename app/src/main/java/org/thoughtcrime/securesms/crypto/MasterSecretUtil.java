@@ -63,6 +63,9 @@ public class MasterSecretUtil {
   private static final String PREFERENCES_NAME = "MasterKeys";
 
   private static final String KEY_ALIAS_DEFAULT = "MollySecret";
+  
+  // Limite máximo de memória para o KDF (128MB)
+  private static final long MAX_KDF_MEMORY = 128 * 1024 * 1024;
 
   private static final String ASYMMETRIC_LOCAL_PUBLIC_DJB   = "asymmetric_master_secret_curve25519_public";
   private static final String ASYMMETRIC_LOCAL_PRIVATE_DJB  = "asymmetric_master_secret_curve25519_private";
@@ -75,50 +78,67 @@ public class MasterSecretUtil {
 
     String keyStoreAlias = null;
     String savedKeyStoreAlias = retrieve(context, "keystore_alias", KEY_ALIAS_DEFAULT);
-
+    byte[] passphraseSalt = null;
     SecureSecretKeySpec secretKey;
 
-    if (isUnencryptedPassphrase(newPassphrase)) {
-      secretKey = getUnencryptedKey();
-    } else {
-      PassphraseBasedKdf kdf = new PassphraseBasedKdf();
+    try {
+      if (isUnencryptedPassphrase(newPassphrase)) {
+        secretKey = getUnencryptedKey();
+      } else {
+        PassphraseBasedKdf kdf = new PassphraseBasedKdf();
 
-      System.gc();
+        // Limita a memória utilizada para garantir estabilidade
+        long availableMemory = Util.getAvailMemory(context);
+        long memoryForKdf = Math.min(availableMemory / 2, MAX_KDF_MEMORY);
+        kdf.findParameters(memoryForKdf);
 
-      kdf.findParameters(Util.getAvailMemory(context) / 2);
+        keyStoreAlias = UUID.randomUUID().toString();
+        try {
+          kdf.setHmacKey(KeyStoreHelper.createKeyStoreEntryHmac(keyStoreAlias, hasStrongBox(context)));
+        } catch (Exception e) {
+          // Falha crítica ao tentar usar o KeyStore
+          Log.e(TAG, "Falha crítica ao criar chave no KeyStore", e);
+          keyStoreAlias = null;
+          
+          // Impedir a continuação com segurança comprometida
+          throw new SecurityException("Não foi possível proteger dados com segurança de hardware", e);
+        }
 
-      keyStoreAlias = UUID.randomUUID().toString();
-      kdf.setHmacKey(KeyStoreHelper.createKeyStoreEntryHmac(keyStoreAlias, hasStrongBox(context)));
+        passphraseSalt = generateSalt();
 
-      byte[] passphraseSalt = generateSalt();
+        prefs.putString("passphrase_salt", Base64.encodeWithPadding(passphraseSalt));
+        prefs.putString("kdf_parameters", kdf.getParameters());
+        prefs.putLong("kdf_elapsed", kdf.getElapsedTimeMillis());
 
-      prefs.putString("passphrase_salt", Base64.encodeWithPadding(passphraseSalt));
-      prefs.putString("kdf_parameters", kdf.getParameters());
-      prefs.putLong("kdf_elapsed", kdf.getElapsedTimeMillis());
+        secretKey = kdf.deriveKey(newPassphrase, passphraseSalt);
+      }
 
-      secretKey = kdf.deriveKey(newPassphrase, passphraseSalt);
-    }
+      byte[] encryptionIV          = generateIV();
+      byte[] combinedSecrets       = Util.combine(masterSecret.getEncryptionKey().getEncoded(),
+                                                  masterSecret.getMacKey().getEncoded());
+      byte[] encryptedMasterSecret = encrypt(encryptionIV, combinedSecrets, secretKey);
 
-    byte[] encryptionIV          = generateIV();
-    byte[] combinedSecrets       = Util.combine(masterSecret.getEncryptionKey().getEncoded(),
-                                                masterSecret.getMacKey().getEncoded());
-    byte[] encryptedMasterSecret = encrypt(encryptionIV, combinedSecrets, secretKey);
+      Arrays.fill(combinedSecrets, (byte) 0);
+      secretKey.destroy();
 
-    Arrays.fill(combinedSecrets, (byte) 0);
-    secretKey.destroy();
+      prefs.putString("encryption_iv", Base64.encodeWithPadding(encryptionIV));
+      prefs.putString("master_secret", Base64.encodeWithPadding(encryptedMasterSecret));
+      prefs.putBoolean("passphrase_initialized", true);
+      prefs.putBoolean("keystore_initialized", keyStoreAlias != null);
+      prefs.putString("keystore_alias", keyStoreAlias);
 
-    prefs.putString("encryption_iv", Base64.encodeWithPadding(encryptionIV));
-    prefs.putString("master_secret", Base64.encodeWithPadding(encryptedMasterSecret));
-    prefs.putBoolean("passphrase_initialized", true);
-    prefs.putBoolean("keystore_initialized", keyStoreAlias != null);
-    prefs.putString("keystore_alias", keyStoreAlias);
+      if (!prefs.commit()) {
+        throw new AssertionError("failed to save preferences in MasterSecretUtil");
+      }
 
-    if (!prefs.commit()) {
-      throw new AssertionError("failed to save preferences in MasterSecretUtil");
-    }
-
-    if (savedKeyStoreAlias != null) {
-      KeyStoreHelper.deleteKeyStoreEntry(savedKeyStoreAlias);
+      if (savedKeyStoreAlias != null) {
+        KeyStoreHelper.deleteKeyStoreEntry(savedKeyStoreAlias);
+      }
+    } finally {
+      // Garantir que o salt é sempre limpo, mesmo em caso de exceção
+      if (passphraseSalt != null) {
+        Arrays.fill(passphraseSalt, (byte) 0);
+      }
     }
   }
 
